@@ -1,0 +1,62 @@
+let data2=[
+
+     {
+        id:21,
+        category:"scrubs",
+        image:"https://3.imimg.com/data3/QC/FL/MY-3792183/fairness-scrub-500x500.jpg",
+        title:"Fairness Scrub",
+        content:"Skin undergoes a natural renewal process where upper skin cells become dead and accumulated with other impurities, hiding skin's freshest layer. Blue heaven's unique deep root exfoliating formula blended with mild surfactants. Fairness vitamins and aloe vera to serve."
+     },
+     {
+        id:22,
+        category:"scrubs",
+        image:"https://3.imimg.com/data3/UL/IY/MY-3792183/mix-fruit-scrub-500x500.jpg",
+        title:"Mix Fruit Scrub",
+        content:["Blue heaven's unique deep root exfoliating formula serves you removel of dead skin cell, dirt and blackheads from your delicate facial skin.","It's cleasing particles unclog pores and mild surfactants gently cleanse the pores deep inside."]
+     },
+     {
+        id:23,
+        category:"scrubs",
+        image:"https://3.imimg.com/data3/GR/XE/MY-3792183/facial-scrub-walnut-apricot-500x500.jpg",
+        title:"Facial Scrub - Walnut & Apricot",
+        content:"Blue heaven 's unique deep root exfoliating formula serves you, removed of dead skin cells, dirt & blackheads from your delicate facial skin. It's walnut shell particles unclog pores and mild surfactants gently cleans the pores from deep inside leaving a soft."
+     },
+     {
+        id:24,
+        category:"Eyes Products",
+        image:"https://3.imimg.com/data3/ML/RO/MY-3792183/mascara-500x500.jpg",
+        title:"Mascara",
+        content:["Lash Defining, Waterproof, Conditioning, Creamy, Water proof, flake proof, Clamp proof formula.","Gives your eye lashes body and fullness.","With the tapered spiral brush the lashes can be easily separated."]
+     },
+     {
+        id:25,
+        category:"Eyes Products",
+        image:"https://3.imimg.com/data3/FX/IN/MY-3792183/eye-shadow-500x500.jpg",
+        title:"Eye Shadow",
+        content:["A fine powder with glitter in compressed form.","Enriched with oil absorbers.","UV-filters and moisturizer.","Gives a radiant glow on eyes.","Water proof and Stays on for hours."]
+     },
+     {
+        id:26,
+        category:"Eyes Products",
+        image:"https://rukminim1.flixcart.com/image/612/612/kpcy5jk0/eye-liner/q/8/z/magneteyes-eyeliner-facescanada-original-imag3hmpduvchzgn.jpeg?q=70",
+        title:"Eye Liner",
+        content:["Creamy, Water proof, flake proof, Clamp proof formula.","Gives your eye lashes body and fullness.","With the tapered spiral brush the lashes can be easily separated.","Usage: Along the edge of the eyelids draw a line with the help of the flexible app."]
+     },
+     {
+        id:27,
+        category:"LipCare",
+        image:"https://3.imimg.com/data3/US/UJ/MY-3792183/lip-balm-500x500.jpg",
+        title:"Lip Balm",
+        content:["Protect your lips from chapping and cold bites.","Keeps your lips soft.","With exotic flavors (Strawberry, Orange, Pineapple, Mix fruit, Mint & Chocolate)."]
+     },
+     {
+        id:28,
+        category:"LipCare",
+        image:"https://3.imimg.com/data3/EJ/OU/MY-3792183/lip-gaurd-500x500.jpg",
+        title:"Lip Gaurd",
+        content:["White petrolleum jelly based soothing Dressing for burns, Minot cuts, Sun Burns and Chafing.","Very helpful for dry and chapped lips.","Preventls your lips from cold bites."]
+     },
+     
+     
+
+]
