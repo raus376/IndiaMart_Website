@@ -1,4 +1,4 @@
-let data2=[
+let data=[
 
      {
         id:21,
@@ -23,35 +23,35 @@ let data2=[
      },
      {
         id:24,
-        category:"Eyes Products",
+        category:"eyesProducts",
         image:"https://3.imimg.com/data3/ML/RO/MY-3792183/mascara-500x500.jpg",
         title:"Mascara",
         content:["Lash Defining, Waterproof, Conditioning, Creamy, Water proof, flake proof, Clamp proof formula.","Gives your eye lashes body and fullness.","With the tapered spiral brush the lashes can be easily separated."]
      },
      {
         id:25,
-        category:"Eyes Products",
+        category:"eyesProducts",
         image:"https://3.imimg.com/data3/FX/IN/MY-3792183/eye-shadow-500x500.jpg",
         title:"Eye Shadow",
         content:["A fine powder with glitter in compressed form.","Enriched with oil absorbers.","UV-filters and moisturizer.","Gives a radiant glow on eyes.","Water proof and Stays on for hours."]
      },
      {
         id:26,
-        category:"Eyes Products",
+        category:"eyesProducts",
         image:"https://rukminim1.flixcart.com/image/612/612/kpcy5jk0/eye-liner/q/8/z/magneteyes-eyeliner-facescanada-original-imag3hmpduvchzgn.jpeg?q=70",
         title:"Eye Liner",
         content:["Creamy, Water proof, flake proof, Clamp proof formula.","Gives your eye lashes body and fullness.","With the tapered spiral brush the lashes can be easily separated.","Usage: Along the edge of the eyelids draw a line with the help of the flexible app."]
      },
      {
         id:27,
-        category:"LipCare",
+        category:"lipcare",
         image:"https://3.imimg.com/data3/US/UJ/MY-3792183/lip-balm-500x500.jpg",
         title:"Lip Balm",
         content:["Protect your lips from chapping and cold bites.","Keeps your lips soft.","With exotic flavors (Strawberry, Orange, Pineapple, Mix fruit, Mint & Chocolate)."]
      },
      {
         id:28,
-        category:"LipCare",
+        category:"lipcare",
         image:"https://3.imimg.com/data3/EJ/OU/MY-3792183/lip-gaurd-500x500.jpg",
         title:"Lip Gaurd",
         content:["White petrolleum jelly based soothing Dressing for burns, Minot cuts, Sun Burns and Chafing.","Very helpful for dry and chapped lips.","Preventls your lips from cold bites."]
