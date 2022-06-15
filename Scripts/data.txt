@@ -154,7 +154,7 @@ let data=[
         category:"scrubs",
         image:"https://3.imimg.com/data3/QC/FL/MY-3792183/fairness-scrub-500x500.jpg",
         title:"Fairness Scrub",
-        content:"Skin undergoes a natural renewal process where upper skin cells become dead and accumulated with other impurities, hiding skin's freshest layer. Blue heaven's unique deep root exfoliating formula blended with mild surfactants. Fairness vitamins and aloe vera to serve."
+        content:["Skin undergoes a natural renewal process where upper skin cells become dead and accumulated with other impurities, hiding skin's freshest layer. Blue heaven's unique deep root exfoliating formula blended with mild surfactants. Fairness vitamins and aloe vera to serve."]
      },
      {
         id:22,
@@ -168,7 +168,7 @@ let data=[
         category:"scrubs",
         image:"https://3.imimg.com/data3/GR/XE/MY-3792183/facial-scrub-walnut-apricot-500x500.jpg",
         title:"Facial Scrub - Walnut & Apricot",
-        content:"Blue heaven 's unique deep root exfoliating formula serves you, removed of dead skin cells, dirt & blackheads from your delicate facial skin. It's walnut shell particles unclog pores and mild surfactants gently cleans the pores from deep inside leaving a soft."
+        content:["Blue heaven 's unique deep root exfoliating formula serves you, removed of dead skin cells, dirt & blackheads from your delicate facial skin. It's walnut shell particles unclog pores and mild surfactants gently cleans the pores from deep inside leaving a soft."]
      },
      {
         id:24,
@@ -204,6 +204,48 @@ let data=[
         image:"https://3.imimg.com/data3/EJ/OU/MY-3792183/lip-gaurd-500x500.jpg",
         title:"Lip Gaurd",
         content:["White petrolleum jelly based soothing Dressing for burns, Minot cuts, Sun Burns and Chafing.","Very helpful for dry and chapped lips.","Preventls your lips from cold bites."]
-     }
+     },
+      {
+        id:29,
+        category:"transitionalItems",
+        image:"https://3.imimg.com/data3/WJ/EO/MY-3792183/01-500x500.jpg",
+        title:"Sindoor",
+        content:["Stick Sindoor","Non dropy","Resistant to perspiration","No skin irritation.","Easy to apply and easy to carry."],
+     },
+     {
+        id:30,
+        category:"transitionalItems",
+        image:"https://3.imimg.com/data3/RI/RI/MY-3792183/01-500x500.jpg",
+        title:"Kajal",
+        content:["Specially formulated KAJAL with the combination of some exotic herbal extracts to offer.","matte-finish.","Non Smudging","Resistant to perspiration.","Safe to use & no irritation","Easy to apply."]
+     },
+     {
+        id:31,
+        category:"creams",
+        image:"https://3.imimg.com/data3/QK/RV/MY-3792183/cold-cream-500x500.jpg",
+        title:"Cold Cream",
+        content:["An easy spread easy absorbed Moisturising Cold Cream enriched with Almond Oil, Aloe vera, Coco butter and Vit-E, which nourishes your skin, making it soft, smooth and brings out hidden radiance. It improves the natural structure of your skin giving complete protective."]
+     },
+     {
+        id:32,
+        category:"creams",
+        image:"https://3.imimg.com/data3/BH/LB/MY-3792183/massage-cream-500x500.jpg",
+        title:"Massage Cream",
+        content:["A unique Fruit Massage Cream enriched with skin vitamins, which nourishes your skin, making it soft, smooth brings out hidden radiance.","It's emollient rich formula helps easy penetration of the actives into ypur skin. Ideal for facial  /Body Massage."]
+     },
+     {
+        id:33,
+        category:"nailsProducts",
+        image:"https://3.imimg.com/data3/BK/MD/MY-3792183/01-500x500.jpg",
+        title:"Nail Enamel",
+        content:["Non bleeding, non feathering formula","Provides intense colour.","With imported bristles for Smooth application.","Stays for days, no chip off.","Gives full coverage at just one application.","Unlimited glossy as well as matty."]
+     },
+     {
+        id:34,
+        category:"roseWater",
+        image:"https://3.imimg.com/data3/UP/UB/MY-3792183/rose-water-mask-250x250.jpg",
+        title:"Rose Water-Mask",
+        content:["Blue Heaven's premium rose water enriched with extracts of fresh rose petals, which tones, refreshes and improves your skin texture.","Usage: It can be used alone or mixed with Blue Heaven."]
+     }, 
      
 ]
