@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: rgb(234, 234, 234); */
+}
+
+/* whole icons styling */
+#navbar i {
+  margin-right: 5px;
+  padding: 5px;
+}
+#navbar .fa-location-dot,
+#navbar .fa-thumbs-up {
+  background-color: gray;
+  color: #fff;
+  border-radius: 50%;
+}
+
+#top-navbar button .fa-phone-volume {
+  transform: rotate(-45deg);
+  font-size: 20px;
+}
+
+#navbar .fa-check {
+  background-color: rgb(14, 244, 14);
+  color: #fff;
+  border-radius: 50%;
+}
+
+#navbar .fa-star {
+  margin: 0;
+  padding: 0;
+  color: gold;
+}
+#navbar .fa-star:nth-last-child(1) {
+  color: rgb(212, 211, 211);
+}
+/*icons styling ends*/
+
+#navbar-container {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Top navbar styling*/
+#top-navbar {
+  display: flex;
+  align-content: center;
+  width: 100%;
+}
+#top-navbar #logo {
+  width: 120px;
+  height: 120px;
+}
+#top-navbar button {
+  margin-left: auto;
+  align-self: flex-end;
+  padding: 10px 20px;
+  border: 1px solid teal;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: teal;
+  cursor: pointer;
+}
+#top-navbar button:hover {
+  color: rgb(2, 201, 201);
+}
+
+#top-navbar > div {
+  margin: auto;
+  margin-left: 15px;
+}
+#top-navbar > div > div {
+  display: flex;
+  justify-content: center;
+  /* gap: 10px; */
+}
+#top-navbar > div h1 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+#top-navbar > div > div p:not(:nth-last-child(1)) {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid black;
+}
+
+/* Bottom Navbar / Main Navbar*/
+#bottom-navbar {
+  display: flex;
+  margin-top: 15px;
+  position: relative;
+}
+#gslink {
+  display: flex;
+  align-items: center;
+  width: 82%;
+  background-color: #eaeaf4;
+  justify-content: flex-start;
+}
+
+#gslink > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  padding: 0 50px;
+  cursor: pointer;
+  height: 100%;
+}
+#gslink > p:hover:not(.active) {
+  background-color: rgb(246, 246, 246);
+}
+#gslink .active {
+  cursor: default;
+  background-color: #2d3192;
+  color: #fff;
+}
+#bottom-navbar > button {
+  display: block;
+  margin-left: auto;
+  padding: 12px 58px;
+  border: 1px solid #fff;
+  background-color: teal;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#bottom-navbar > button:hover {
+  transform: scale(105%);
+}
+
+/* product sub menu design */
+#product-sub-menu {
+  display: none;
+  width: 100%;
+  transition: 0.5ms ease-in;
+  position: absolute;
+  top: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  padding: 20px;
+  background-color: rgb(246, 246, 246);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+#product-sub-menu a {
+  text-decoration: none;
+  color: #000;
+}
+#product-sub-menu a:hover {
+  text-decoration: underline;
+}
+#more-link {
+  font-size: 14px;
+  color: blue !important;
+  text-decoration: underline !important;
+}
+#more-link:hover {
+  text-decoration: none !important;
+}
+#product-sub-menu h3 {
+  margin-bottom: 20px;
+}
+#product-sub-menu p {
+  margin: 10px auto;
+}
+#product-sub-menu > div {
+  display: flex;
+  flex-direction: column;
+}
+#product-sub-menu > div > div:nth-child(1) {
+  margin-bottom: 20px;
+  height: 160px;
+}
+#product-sub-menu > div:nth-child(2) {
+  padding-left: 20px;
+}
+#product-sub-menu button {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 1px solid teal;
+  color: teal;
+  cursor: pointer;
+  border-radius: 5px;
+
+  background: linear-gradient(to right, teal 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+#product-sub-menu button:hover {
+  background-position: left bottom;
+  color: #fff;
+}
+
+/* About Us Submenu*/
+#about-us-submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  padding: 20px 30px;
+  width: 22%;
+  background-color: rgb(246, 246, 246);
+}
+#about-us-submenu a {
+  text-decoration: none;
+  color: #000;
+}
+#about-us-submenu a:hover {
+  text-decoration: underline;
+}
+#about-us-submenu p {
+  font-size: 16px;
+}
+#about-us-submenu p:not(:nth-last-child(1)) {
+  margin-bottom: 15px;
+}
