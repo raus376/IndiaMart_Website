@@ -323,7 +323,7 @@
 #gs-showsearch-result {
   display: none;
   position: absolute;
-  min-width: 450px;
+  width: 450px;
   background-color: white;
   top: 88%;
   left: 30.2%;
