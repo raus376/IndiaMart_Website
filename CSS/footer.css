@@ -61,6 +61,9 @@
   border-top: 1px solid rgb(232, 232, 232);
   padding: 5px 0;
 }
+#bottom-footer > div {
+  align-items: center;
+}
 #bottom-footer > div > p {
   font-size: 15px;
   color: gray;
@@ -69,3 +72,28 @@
   color: gray;
   text-decoration: none;
 }
+
+@media all and (max-width: 1100px) {
+  #top-footer > div > p {
+    font-size: 20px;
+  }
+  #top-footer > div > div span {
+    font-size: 14px;
+  }
+  #top-footer > div > div i {
+    font-size: 16px;
+  }
+  #main-footer a {
+    font-size: 14px;
+  }
+  #main-footer .footer-big-link {
+    font-size: 15px;
+  }
+  #bottom-footer > div > p {
+    font-size: 12px;
+  }
+  #bottom-footer a {
+    font-size: 12px;
+  }
+}
+

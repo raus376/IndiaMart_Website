@@ -1,5 +1,54 @@
-function navbar() {
-  return `<div id="navbar-container">
+function navbar(username) {
+  return `
+  <div id="indiamart-menu">
+
+        <div id="gs-left-side">
+          <div id="indiamart-logo">
+            <a href="#"><img src="./images/indiamartlogo.PNG" alt=""></a>
+          </div>
+
+          <div id="indiamart-search">
+            <select><option value="#">All India</option></select>
+            <input type="text" id="gs-searchinput" placeholder="Enter product/service to search">
+            <div id="gs-showsearch-result"></div>
+            <button id="gs-searchbtn">Search</button>
+  
+            <button id="gs-best-price">Get Best Price</button>
+          </div>
+        </div>      
+
+        <div id="indiamart-links">
+          <div>
+            <i class="fa-solid fa-tag"></i>
+            <p>Shopping</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-house-medical"></i>
+            <p>Covid Supplies</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-store"></i>
+            <p>Sell</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-circle-question"></i>
+            <p>Help</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-message"></i>
+            <p>Messages</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <p>${username}</p>
+          </div>
+        </div>
+
+      </div>
+
+  
+  
+  <div id="navbar-container">
     <div id="top-navbar">
       <img
         src="https://3.imimg.com/data3/HJ/OY/MY-3792183/blue-heaven-cosmetics-private-limited-logo-120x120.jpg"
