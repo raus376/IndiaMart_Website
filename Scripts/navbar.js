@@ -1,7 +1,7 @@
 import navbar from "../components/navigation_part.js";
 
 let navbar_div = document.getElementById("navbar");
-navbar_div.innerHTML = navbar();
+navbar_div.innerHTML = navbar("Govind");
 
 // navbar functionality
 let gsproduct = document.getElementById("gsproduct");
@@ -36,3 +36,32 @@ gsabout.addEventListener("mouseenter", () => {
 gsabout.addEventListener("mouseleave", () => {
   aboutUsSubmenu.style.display = "none";
 });
+
+//searching
+
+let showResults = document.getElementById("gs-showsearch-result");
+let searchbox = document.getElementById("gs-searchinput");
+let searchbtn = document.getElementById("gs-searchbtn");
+searchbtn.addEventListener("click", searchFunction);
+
+searchbox.addEventListener("input", searchFunction);
+
+function searchFunction() {
+  let searchValue = searchbox.value;
+  showResults.style.display = "block";
+
+  if (searchValue == "") {
+    showResults.style.display = "none";
+  }
+
+  let results = "ruko jara sabra karo";
+  appendSearchResults(showResults, results);
+}
+
+function appendSearchResults(showResults, results) {
+  showResults.innerHTML = null;
+  let p = document.createElement("p");
+  p.innerText = results;
+
+  showResults.append(p);
+}
