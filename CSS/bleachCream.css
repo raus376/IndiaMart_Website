@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#vkMainCont{
+    /* border: 1px solid black; */
+    /* height: 100vh; */
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+/* .............. Accordion .........  */
+
+.accordion {
+    /* background-color: #2E3192; */
+    border-radius: 5px;
+    overflow: hidden;
+    height: auto;
+    width: 15%;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 20px ;
+    /* z-index: -1; */
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+}
+.accordion h3:first-child{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #efeded;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.accordion h3:last-child{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #efeded;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+.accordion h3:last-child:hover{
+    text-decoration: underline;
+}
+
+.accordion a{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+.accordion a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.accordion>div{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 3px;
+}
+.accordion__label,
+.accordion__content {
+    padding: 14px 20px; 
+}
+.accordion__label {
+    display: block;
+    /* color: white; */
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+    /* z-index: 0; */
+
+}
+.accordion__label:hover{
+    background: rgba(0,0,0,0.1);
+
+}
+
+.accordion__label::after {
+ content: "";
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+ right: 20px;
+ width: 12px;
+ height: 6px;
+ background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%2300000099;" /></svg>');
+ background-size: contain;
+ transition: transform 0.4s;
+ /* z-index: -1; */
+ 
+}
+
+.accordion__content {
+background: #ffffff;
+line-height: 25px;
+font-size: 0.85em;
+display: none;
+
+}
+.accordion__input {
+display: none;
+}
+.accordion__input:checked ~ .accordion__content {
+display: block;
+}
+
+.accordion__input:checked ~ .accordion__label::after {
+transform: translateY(-50%) rotate(0.5turn);
+}
+
+
+
+
+/* .............. Accordion .........  */
+
+#vkContainer{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 80%;
+    padding: 10px;
+    padding-left: 15px;
+    margin-left: 8px;
+
+}
+#vkContainer>h1{
+    color:#551A8B ;
+    margin: 0px 0px 10px;
+}
+#vkContainer>h1+p{
+    color: #444444;
+}
+#vkMinCard{
+    display: flex;
+    column-gap: 10px;
+    /* width: 44%; */
+    margin-top: 25px;
+    /* padding-left: 10px; */
+    
+}
+#vkMinCard>div{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+    /* height: 200px; */
+    width: 130px;
+    background-color:  rgb(240, 242, 242);
+
+}
+
+
+#vkMinCard>div:hover{
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#vkMinCard img{
+    width: 100%;
+    height: 145px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+    cursor: pointer;
+}
+#vkMinCard img+p{
+    margin-left: 8px;
+    font-size: 12px;
+    color: #551A8B;
+    
+}
+#vkMinCard p+p{
+    margin-left: 8px;
+    font-size: 12px;
+    color: #551A8B;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+#vkMinCard p+p:hover,
+#vkMinCard img+p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#vkMinCard>div:nth-child(1)>p+p,
+#vkMinCard>div:nth-child(2)>p+p,
+#vkMinCard>div:nth-child(3)>p+p {
+    /* color: red; */
+    margin-top: 16px;
+}
+
+/* xxxxxxxxx  Product css xxxxxxxx */
+#vkProductDiv{
+    /* border: 5px solid black; */
+    margin-top: 30px;
+}
+#vkProductDiv .productCard{
+    display: flex;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 0px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px 0.5px; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 18px;
+    /* height: 480px; */
+}
+#vkProductDiv .productCard:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#vkProductDiv .imgDiv{
+    width: 40%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-align: center;
+    border-radius: 4px;
+    padding-top: 7px;
+}
+#vkProductDiv>div:nth-child(3) div:first-child img{
+    border: 4px solid black;
+    margin: 80px auto;
+    /* height: 50%; */
+    /* width: 57%; */
+}
+
+#vkProductDiv .imgDiv img{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+   
+}
+.imgDiv img+p{
+    color: #777777;
+    font-size: 14px;
+}
+.imgDiv p+p{
+    font-size: 17px;
+    color: teal;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.imgDiv p+p:hover{
+    color: rgb(1, 92, 92);
+}
+
+#vkProductDiv .detailsDiv{
+    /* border: 1px solid black; */
+
+    margin-left: 20px;
+    width: 55%;
+}
+.detailsDiv ul{
+    /* border: 1px solid black; */
+    color: #333333;
+    padding: 0px 0px 0px 18px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.detailsDiv h2+p{
+    color: #551A8B;
+    text-decoration: underline;
+    font-size: 15px;
+    cursor: pointer;
+}
+.detailsDiv button{
+    padding: 12.5px 30.5px;
+    display: block;
+    margin: auto;
+    margin-top: 38px;
+    border-radius: 5px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 17px;
+    
+    transition: 0.2s;
+}
+.detailsDiv button:hover{
+    padding: 13px 31px;
+    cursor: pointer;
+    background-color: rgb(2, 141, 141) ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+/* --------------------- */
+#vkMainCont+h1{
+    margin-left: 10%;
+}
+#exploreDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+#exploreDiv h3{
+    cursor: pointer;
+}
+#exploreDiv p{
+    color: gray;
+}
+
+#exploreDiv img{
+    width: 125px;
+    height: 140px ;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+.exploreCard{
+    display: flex;
+    /* border: 1px solid black ; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: 150px;
+}
+.exploreCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.exploreCard>div:first-child{
+    width: 40%;
+    /* border: 1px solid black ; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+
+}
+ .exploreCard>div:last-child{
+    width: 60%;
+    padding-left: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#exploreDiv>div:nth-child(5) img{
+    width: 135px;
+    height: 90px ;
+    display: block;
+    margin: 20px auto;
+} 
+#exploreDiv>div:last-child{
+    color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: underline;
+    
+}
+#exploreDiv>div:last-child p{
+    cursor: pointer;
+}
+

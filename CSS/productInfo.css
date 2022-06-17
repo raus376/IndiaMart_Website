@@ -1,0 +1,158 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#infoDiv{
+    display: flex;
+    gap: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 3%;
+}
+#imgDiv{
+    width: 30%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#imgDiv img{
+}
+#detailsDiv{
+    width: 47%;
+    /* border: 1px solid black; */
+}
+#companyDiv{
+    /* border: 1px solid black; */
+}
+#details{
+    /* border: 1px solid red; */
+    margin-left: 5px;
+}
+#details h2:nth-child(1){
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#details ul{
+    margin-left: 20px;
+    color: rgb(55, 55, 55);
+    line-height: 27px;
+    font-size: 15px;
+}
+#details p:last-child{
+    font-size: 13px;
+    color: #056a62;
+    cursor: pointer;
+}
+#details p:last-child:hover{
+    text-decoration: underline;
+}
+#quantityDiv{
+    width: 70%;
+    /* border: 1px solid black; */
+    margin: 25px auto;
+    text-align: center;
+    background-color: #F4F4F4;
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    
+    
+}
+#quantityDiv>p{
+    color: #333333;
+    font-size: 14px;
+}
+#quantityDiv input{
+    width: 80px;
+    height: 33px;
+    margin-top: 8px;
+}
+#quantityDiv select{
+    width: 80px;
+    height: 33px;
+}
+
+#quantityDiv button{
+    display: block;
+    margin: 10px auto;
+    padding: 12.5px 27.5px;
+    border-radius: 5px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 17px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+#quantityDiv button:hover{
+    /* padding: 13px 31px;   */
+    cursor: pointer;
+    background-color: rgb(2, 141, 141) ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#companyDiv {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    text-align: center;
+    padding: 10px;
+    width: 18%;
+    height: 330px;
+    margin-top: 50px;
+}
+#companyDiv>h3:first-child{
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+#companyDiv h3+div{
+    /* border: 1px solid black; */
+    display: flex;   
+    font-size: 13px;
+    text-align: left;
+    color: #3b3b3b;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    /* line-height: 25px; */
+}
+#companyDiv h3+div img{
+    width: 60px;
+    border-radius: 5px;
+}
+#companyDiv h3+div>div:last-child{
+    /* color: red; */
+    padding-left: 5px;
+}
+#companyDiv h3+div+p{
+    font-size: 12px;
+}
+#companyDiv p+div{
+    border-top: 1px solid black;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+#companyDiv p+div>p+p{
+    font-size: 12px;
+    line-height: 20px;
+}
+#companyDiv p+div+div{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-around;
+    border-bottom: 1px solid balck;
+}
+#companyDiv h4{
+    background-color: #F4F4F4;
+    padding: 10px;
+    border-radius: 5px;
+    color: teal;
+    text-decoration: underline;
+}
+#companyDiv>p:last-child{
+    text-align: left;
+    text-decoration: underline;
+    color: teal;
+}

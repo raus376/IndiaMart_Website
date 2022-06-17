@@ -151,6 +151,7 @@
   background-color: rgb(246, 246, 246);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    z-index: 100;
 }
 #product-sub-menu a {
   text-decoration: none;
@@ -324,10 +325,11 @@
   display: none;
   position: absolute;
   width: 450px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   top: 88%;
   left: 30.2%;
-  z-index: 1;
+  z-index: 1000;
+  background: opaque ;
 }
 #gs-showsearch-result p {
   color: #000;
@@ -335,6 +337,7 @@
   padding: 10px 20px;
   font-size: 20px;
   border-bottom: 1px solid rgb(203, 203, 203);
+
 }
 
 /*Indiamart menu end*/
