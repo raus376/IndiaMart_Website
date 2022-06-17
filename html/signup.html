@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../logos/indiamart.png" type="image/png">
+<title>IndiaMART</title>
+<link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+ <div class="popup" id="popup-1">
+    <div class="content" id="input">
+        <div class="close-btn" onclick="togglePopup()">X</div>
+        <h1>Join IndiaMART for Free</h1> 
+        <h2>First Name</h2>
+        <div class="input-field" >
+            <input id="users_fname" type="text" placeholder="Enter Your first Name" class="validate" />
+        </div>
+        <h2>Last Name</h2>
+        <div class="input-field" >
+            <input id="users_lname" type="text" placeholder="Enter Your last Name" class="validate" />
+        </div>
+        <h2>Email</h2>
+        <div class="input-field" >
+            <input id="users_email" type="email" placeholder="Enter Your email Id" class="validate" />
+        </div>
+        <h2>Password</h2>
+        <div class="input-field" id="input">
+            <input id="users_password" type="password" placeholder="Enter Your Password" class="validate" />
+        </div>
+        <h2>Mobile Number</h2>
+        <div class="input-field" >
+            <input id="users_num" type="number" placeholder="Enter Your Mobile Number" class="validate" />
+        </div>
+        <p id='show-error'></p>
+        <button class="second-button" onclick="signup(event)">Create Your Account</button>
+
+    </div>
+  </div>
+
+</body>
+</html> 
+
+<script src='../js/signup.js'></script>
