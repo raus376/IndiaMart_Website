@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Blue Heaven Cosmetics (P) Ltd, New Delhi - Manufacturer of Makeup and
+      Lipstick
+    </title>
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAcjUhuKhemPhfI4WWQwEW9hH7-Qj2pZIMXg&usqp=CAU"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/c967f00af5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <link rel="stylesheet" href="/CSS/navbar.css">
+    <link rel="stylesheet" href="/CSS/footer.css"> -->
+
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+
+      /*SLIDE*/
+
+      #Y_slide {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+          rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        width: 90%;
+        margin: auto;
+      }
+
+      #Y_slide div {
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+          rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /*ABOUT US*/
+
+      #Y_about_us {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+
+      .Y_content span {
+        border-radius: 50%;
+        padding: 15px;
+        background: rgb(110, 165, 216);
+        margin-right: 15px;
+      }
+
+      .Y_content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      #Y_point_1 {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      #Y_point_2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 44%;
+        margin: auto;
+      }
+
+      #Y_heading {
+        margin-bottom: 20px;
+      }
+
+      #Y_heading a {
+        text-decoration: none;
+        color: rgb(11, 11, 122);
+      }
+
+      /*PRODUCT & SERVICES*/
+
+      #Y_product_container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        gap: 25px;
+        width: 90%;
+        margin: auto;
+      }
+
+      #Y_product_services {
+        text-align: center;
+      }
+
+      .Y_product_box {
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+          rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        padding: 10px;
+      }
+
+      .Y_product_box:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+
+      .Y_product_box h2 {
+        color: rgb(11, 11, 122);
+        cursor: pointer;
+      }
+
+      .Y_product_box h2:hover {
+        text-decoration: underline;
+      }
+
+      .Y_grey {
+        color: rgb(110, 101, 101);
+      }
+
+      .Y_product_box p:hover {
+        color: black;
+        cursor: pointer;
+      }
+
+      .Y_product_box a {
+        color: teal;
+        font-weight: 500;
+      }
+
+      .Y_product_img {
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #Y_product_services_button {
+        border-color: teal;
+        color: teal;
+        padding: 10px 15px 10px 15px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        border-radius: 3px;
+      }
+
+      #Y_product_services_button:hover {
+        color: white;
+        background-color: teal;
+        cursor: pointer;
+      }
+
+      /*REVIEWS & RATINGS*/
+
+      .heading {
+        font-size: 25px;
+        margin-right: 25px;
+      }
+
+      .fa {
+        font-size: 25px;
+      }
+
+      .checked {
+        color: orange;
+      }
+
+      .side {
+        float: left;
+        width: 15%;
+        margin-top: 10px;
+      }
+
+      .middle {
+        float: left;
+        width: 70%;
+        margin-top: 10px;
+      }
+
+      .right {
+        text-align: right;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .bar-container {
+        width: 100%;
+        background-color: #f1f1f1;
+        text-align: center;
+        color: white;
+      }
+
+      .bar-5 {
+        width: 60%;
+        height: 18px;
+        background-color: #04aa6d;
+      }
+      .bar-4 {
+        width: 30%;
+        height: 18px;
+        background-color: #2196f3;
+      }
+      .bar-3 {
+        width: 10%;
+        height: 18px;
+        background-color: #00bcd4;
+      }
+      .bar-2 {
+        width: 4%;
+        height: 18px;
+        background-color: #ff9800;
+      }
+      .bar-1 {
+        width: 15%;
+        height: 18px;
+        background-color: #f44336;
+      }
+
+      #Y_rating_heading {
+        text-align: center;
+      }
+
+      #Y_rating {
+        width: 70%;
+        margin-left: 20px;
+      }
+
+      .checked {
+        color: orange;
+      }
+
+      .Y_text_icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-right: 50px;
+      }
+
+      .Y_review_text_ {
+        display: flex;
+        align-items: center;
+        width: 450px;
+        margin-left: 20px;
+      }
+
+      #Y_review_text > h3 {
+        margin-top: 50px;
+        margin-left: 20px;
+      }
+
+      #Y_review_button {
+        border-color: blue;
+        color: blue;
+        cursor: pointer;
+        padding: 7px 15px 7px 15px;
+        border-radius: 5px;
+      }
+
+      #Y_review_button_div {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* GET IN TOUCH WITH US */
+
+      #Y_address_heading {
+        background-color: #2d3192;
+        color: white;
+        padding: 10px;
+        margin-top: 50px;
+      }
+
+      #Y_content {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      #Y_sms_button {
+        border-color: teal;
+        background-color: teal;
+        color: white;
+        padding: 7px 15px 7px 15px;
+        font-size: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      #Y_email_button {
+        border-color: teal;
+        color: teal;
+        padding: 7px 15px 7px 15px;
+        font-size: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      #Y_submit_button {
+        border-color: teal;
+        background-color: teal;
+        color: white;
+        padding: 7px 15px 7px 15px;
+        font-size: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 120px;
+      }
+
+      #Y_address_input {
+        width: 90%;
+        height: 90px;
+        margin-bottom: 20px;
+        text-align: left;
+      }
+
+      #Y_address_link {
+        display: grid;
+        gap: 10px;
+      }
+
+      #Y_address_link a {
+        text-decoration: none;
+        color: black;
+      }
+
+      #Y_address_link a:hover {
+        text-decoration: underline;
+        font-weight: bolder;
+        cursor: pointer;
+      }
+
+      #Y_address_shareus {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 200px;
+        cursor: pointer;
+        margin-left: 20px;
+        margin-top: 10px;
+      }
+
+      /*Ready to Ship Products in Similar Categories*/
+
+      .Y_ship_img img {
+        width: 120px;
+        height: 120px;
+      }
+
+      .Y_ship_product_box {
+        width: 12%;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 10px;
+        background-color: rgb(236, 230, 230);
+      }
+
+      .Y_ship_product_box button {
+        background: teal;
+        color: white;
+        border-radius: 20px;
+        padding: 5px 15px 5px 15px;
+        cursor: pointer;
+      }
+
+      .Y_ship_price {
+        font-weight: bold;
+      }
+
+      #Y_ship_product_container {
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+      }
+
+      #Y_ship_heading {
+        margin-top: 40px;
+      }
+
+      #Y_form_div {
+        width: 45%;
+        margin-top: 60px;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-left: 250px;
+      }
+
+      #Y_form_div form div {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      #Y_form_div form {
+        width: 100%;
+        margin: auto;
+      }
+
+      .Y_form_input {
+        width: 300px;
+        margin-left: 20px;
+      }
+
+      #Y_form_button input {
+        margin-left: 200px;
+        margin-top: 20px;
+        padding: 7px 15px 7px 15px;
+        background-color: teal;
+        color: white;
+        border-radius: 3px;
+      }
+
+      /*Related Products from Top Suppliers*/
+
+      #Y_related_products {
+        margin-top: 40px;
+        margin-left: 20px;
+      }
+
+      #Y_related_products_container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: pointer;
+        width: 90%;
+        margin: auto;
+      }
+
+      #Y_related_products_box {
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+          rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        padding: 10px;
+        text-align: center;
+      }
+
+      #Y_related_products_container h3 {
+        color: #2e3192;
+      }
+
+      #Y_related_products_container h3:hover {
+        text-decoration: underline;
+      }
+
+      #Y_related_products_box button {
+        padding: 7px 15px 7px 15px;
+        background-color: teal;
+        color: white;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+
+      /*Related Categories*/
+
+      #Y_related_cat {
+        margin-top: 40px;
+        margin-left: 15px;
+      }
+
+      #Y_related_cat_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+      }
+
+      .Y_related_cat_box {
+        display: flex;
+        text-align: center;
+        margin: auto;
+        width: 90%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5px;
+      }
+
+      #Y_related_img img {
+        width: 150px;
+        height: 150px;
+        margin-right: 10px;
+      }
+
+      #Y_related_cat_container h3:hover{
+        color: teal;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+
+    <!-- NAVBAR -->
+
+    <div id="navbar"></div>
+
+    <!-- SLIDE -->
+
+    <div id="Y_slide">
+      <div>
+        <img
+          src="https://3.imimg.com/data3/BX/CS/MY-3792183/foundation-250x250.jpg"
+          alt=""
+        />
+      </div>
+
+      <div>
+        <img
+          src="https://3.imimg.com/data3/QC/FL/MY-3792183/fairness-scrub-250x250.jpg"
+          alt=""
+        />
+      </div>
+
+      <div>
+        <img
+          src="https://3.imimg.com/data3/BK/MD/MY-3792183/01-250x250.jpg"
+          alt=""
+        />
+      </div>
+
+      <div>
+        <img
+          src="https://3.imimg.com/data3/NL/QG/MY-3792183/fruit-bleach-250x250.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <!-- ABOUT US -->
+
+    <div id="Y_about_us">
+      <div id="Y_heading">
+        <h2>About Us</h2>
+        <p>
+          Blue Heaven Cosmetics was started in 1974 by two young brothers,
+          company MD's Mr.Charanjit Singh and Mr. Gurnam Singh with big dreams
+          and ambitions. By virtue of their determination and commitment Blue
+          Heaven Cosmetics has been able to experience such an eventful journey
+          revolutionizing the Indian decorative cosmetics industry.
+        </p>
+        <a href="">+Read More</a>
+      </div>
+
+      <div id="Y_points">
+        <div id="Y_point_1">
+          <div class="Y_content">
+            <span class="material-symbols-outlined"> volunteer_activism </span>
+            <div>
+              <p class="Y_grey">Nature of Business</p>
+              <p>Exporter and Manufacturer</p>
+            </div>
+          </div>
+
+          <div class="Y_content">
+            <span class="material-symbols-outlined"> apartment </span>
+            <div>
+              <p class="Y_grey">Year of Establishment</p>
+              <p>1974</p>
+            </div>
+          </div>
+
+          <div class="Y_content">
+            <span class="material-symbols-outlined"> gavel </span>
+            <div>
+              <p class="Y_grey">Legal Status of Firm</p>
+              <p>Limited Company (Ltd./Pvt.Ltd.)</p>
+            </div>
+          </div>
+
+          <div class="Y_content">
+            <span class="material-symbols-outlined"> monitoring </span>
+            <div>
+              <p class="Y_grey">Annual Turnover</p>
+              <p>Rs. 50 - 100 Crore</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="Y_point_2">
+          <div class="Y_content">
+            <span class="material-symbols-outlined"> language </span>
+            <div>
+              <p class="Y_grey">Import Export Code (IEC)</p>
+              <p>05040*****</p>
+            </div>
+          </div>
+
+          <div class="Y_content">
+            <span class="material-symbols-outlined"> description </span>
+            <div>
+              <p class="Y_grey">GST Number</p>
+              <p>07AACCB1155C1ZB</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCT & SERVICES -->
+
+    <div id="Y_product_services">
+      <h2>Products & Services</h2>
+
+      <div id="Y_product_container">
+        <div class="Y_product_box">
+          <div class="Y_product_img">
+            <img
+              src="https://3.imimg.com/data3/BX/CS/MY-3792183/foundation-250x250.jpg"
+              alt=""
+            />
+          </div>
+
+          <h2>Makeup</h2>
+
+          <p class="Y_grey">Foundation</p>
+          <p class="Y_grey">Compact</p>
+          <p class="Y_grey">Pan Cake Foundation</p>
+
+          <a href="">View Details ></a>
+        </div>
+
+        <div class="Y_product_box">
+          <div class="Y_product_img">
+            <img
+              src="https://4.imimg.com/data4/QY/OX/GLADMIN-3792183/1-250x250.jpg"
+              alt=""
+            />
+          </div>
+
+          <h2>Lipstick</h2>
+
+          <p class="Y_grey">Baked Brick Lipstick</p>
+          <p class="Y_grey">Cerise Oink Lipstick</p>
+          <p class="Y_grey">Coral Red Lipstick</p>
+
+          <a href="">View Details ></a>
+        </div>
+
+        <div class="Y_product_box">
+          <div class="Y_product_img">
+            <img
+              src="https://3.imimg.com/data3/RK/XF/MY-3792183/01-250x250.jpg"
+              alt=""
+            />
+          </div>
+
+          <h2>Lips products</h2>
+
+          <p class="Y_grey">Lip Gloss</p>
+          <p class="Y_grey">Lip Stick</p>
+          <p class="Y_grey">Lip Liner</p>
+
+          <a href="">View Details ></a>
+        </div>
+
+        <div class="Y_product_box">
+          <div class="Y_product_img">
+            <img
+              src="https://3.imimg.com/data3/NL/QG/MY-3792183/fruit-bleach-250x250.jpg"
+              alt=""
+            />
+          </div>
+
+          <h2>Bleach Cream</h2>
+
+          <p class="Y_grey">Fruit Bleach</p>
+          <p class="Y_grey">Gold Bleach</p>
+          <p class="Y_grey">Personal Bleach</p>
+
+          <a href="">View Details ></a>
+        </div>
+
+        <div class="Y_product_box">
+          <div class="Y_product_img">
+            <img
+              src="https://3.imimg.com/data3/QC/FL/MY-3792183/fairness-scrub-250x250.jpg"
+              alt=""
+            />
+          </div>
+
+          <h2>Scrubs</h2>
+
+          <p class="Y_grey">Fairness Scrub</p>
+          <p class="Y_grey">Mix Fruit Scrub</p>
+          <p class="Y_grey">Facial Scrub - Walnut & Apricot</p>
+
+          <a href="">View Details ></a>
+        </div>
+
+        <div class="Y_product_box">
+          <div class="Y_product_img">
+            <img
+              src="https://3.imimg.com/data3/ML/RO/MY-3792183/mascara-250x250.jpg"
+              alt=""
+            />
+          </div>
+
+          <h2>Eyes Products</h2>
+
+          <p class="Y_grey">Mascara</p>
+          <p class="Y_grey">Eye Shadow</p>
+          <p class="Y_grey">Eye Liner</p>
+
+          <a href="">View Details ></a>
+        </div>
+
+        <div class="Y_product_box">
+          <div class="Y_product_img">
+            <img
+              src="https://3.imimg.com/data3/US/UJ/MY-3792183/lip-balm-250x250.jpg"
+              alt=""
+            />
+          </div>
+
+          <h2>LipCare</h2>
+
+          <p class="Y_grey">Lip Balm</p>
+          <p class="Y_grey">Lip Guard</p>
+          <p class="Y_grey">`</p>
+
+          <a href="">View Details ></a>
+        </div>
+
+        <div class="Y_product_box">
+          <div class="Y_product_img">
+            <img
+              src="https://3.imimg.com/data3/WJ/EO/MY-3792183/01-250x250.jpg"
+              alt=""
+            />
+          </div>
+
+          <h2>Traditional Items</h2>
+
+          <p class="Y_grey">Sindoor</p>
+          <p class="Y_grey">Kajal</p>
+          <p class="Y_grey">`</p>
+
+          <a href="">View Details ></a>
+        </div>
+      </div>
+
+      <button id="Y_product_services_button">View Complete Range</button>
+    </div>
+
+    <!-- REVIEWS & RATING -->
+
+    <h2 id="Y_rating_heading">Reviews & Rating</h2>
+
+    <div id="Y_rating">
+      <span class="heading">User Rating</span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <p>4.1 average based on 254 reviews.</p>
+      <hr style="border: 3px solid #f1f1f1" />
+
+      <div class="row">
+        <div class="side">
+          <div>5 star</div>
+        </div>
+        <div class="middle">
+          <div class="bar-container">
+            <div class="bar-5"></div>
+          </div>
+        </div>
+        <div class="side right">
+          <div>150</div>
+        </div>
+        <div class="side">
+          <div>4 star</div>
+        </div>
+        <div class="middle">
+          <div class="bar-container">
+            <div class="bar-4"></div>
+          </div>
+        </div>
+        <div class="side right">
+          <div>63</div>
+        </div>
+        <div class="side">
+          <div>3 star</div>
+        </div>
+        <div class="middle">
+          <div class="bar-container">
+            <div class="bar-3"></div>
+          </div>
+        </div>
+        <div class="side right">
+          <div>15</div>
+        </div>
+        <div class="side">
+          <div>2 star</div>
+        </div>
+        <div class="middle">
+          <div class="bar-container">
+            <div class="bar-2"></div>
+          </div>
+        </div>
+        <div class="side right">
+          <div>6</div>
+        </div>
+        <div class="side">
+          <div>1 star</div>
+        </div>
+        <div class="middle">
+          <div class="bar-container">
+            <div class="bar-1"></div>
+          </div>
+        </div>
+        <div class="side right">
+          <div>20</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Y_review_text">
+      <h3>Most Relevant Reviews</h3>
+
+      <div class="Y_review_text_">
+        <div>
+          <img
+            class="Y_text_icon"
+            src="https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <h3>Jyoti | New Delhi, Delhi</h3>
+
+          <div id="Y_star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+
+          <p>15-December-21</p>
+        </div>
+      </div>
+
+      <div class="Y_review_text_">
+        <div>
+          <img
+            class="Y_text_icon"
+            src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <h3>Vishvajit Kumar | Sheohar, Bihar</h3>
+
+          <div id="Y_star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <p>27-September-21</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="Y_review_button_div">
+      <button id="Y_review_button">View More Reviews</button>
+    </div>
+
+    <!-- GET IN TOUCH WITH US -->
+
+    <div id="Y_address">
+      <h2 id="Y_address_heading">Get in touch with us</h2>
+
+      <div id="Y_content">
+        <div>
+          <h3>Our Company</h3>
+
+          <div id="Y_address_link">
+            <a href="">About Us</a>
+            <a href="">Products & Services</a>
+            <a href="">Contact Us</a>
+            <a href="">Sitemap</a>
+            <a href="">Download Brochure</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Reach Us</h3>
+
+          <h3>
+            <i class="fa-solid fa-location-dot"></i> Blue Heaven Cosmetics (P)
+            Ltd
+          </h3>
+          <p>
+            No. 39, DLF Industrial Area, Kirti Nagar, New Delhi-110019, Delhi,
+            India
+          </p>
+          <a href="">
+            <i class="fa-solid fa-diamond-turn-right"></i> Get Directions</a
+          >
+
+          <p>
+            <i class="fa-solid fa-address-book"></i> Arvind Srivastava (Manager)
+          </p>
+
+          <h3><i class="fa-solid fa-phone"></i> Call 08048361220</h3>
+          <p>Dial Ext 167 when connected</p>
+
+          <div>
+            <button id="Y_sms_button">
+              <i class="fa-solid fa-comment-sms"></i> Send SMS
+            </button>
+            <button id="Y_email_button">
+              <i class="fa-solid fa-envelope"></i> Send Email
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <h3>Leave a Message, we will call you back!</h3>
+
+          <input
+            id="Y_address_input"
+            type="text"
+            placeholder="Additional details about your requirement..."
+          />
+
+          <button id="Y_submit_button">Submit Requirement</button>
+        </div>
+      </div>
+
+      <div id="Y_address_shareus">
+        <i class="fa-solid fa-share-nodes"></i>
+        <h4>Share us via</h4>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </div>
+
+    <!-- Ready to Ship Products in Similar Categories -->
+
+    <h2 id="Y_ship_heading">Ready to Ship Products in Similar Categories</h2>
+
+    <div id="Y_ship_product_container">
+      <div class="Y_ship_product_box">
+        <div class="Y_ship_img">
+          <img
+            src="https://5.imimg.com/data5/ECOM/Default/2022/5/OV/MA/BH/112041886/jpg-20220424-122355-0000-500x500.jpg"
+            alt=""
+          />
+        </div>
+
+        <h4>Natural & Chemical Free..</h4>
+
+        <p class="Y_ship_price">₹ 450</p>
+
+        <button>Buy Now</button>
+
+        <p>Mavashivaa - Golden Traders</p>
+      </div>
+
+      <div class="Y_ship_product_box">
+        <div class="Y_ship_img">
+          <img
+            src="https://5.imimg.com/data5/ECOM/Default/2022/6/UU/PA/IS/9422220/hair-nose-lip-3-color-single-lipstick-moisturizing-color-waterproof-temptation-of-angels-222-500x500.jpg"
+            alt=""
+          />
+        </div>
+
+        <h4>3-color Single Lipstick</h4>
+
+        <p class="Y_ship_price">₹ 1,499 / Unit</p>
+
+        <button>Buy Now</button>
+
+        <p>My Online Collection Stores</p>
+      </div>
+
+      <div class="Y_ship_product_box">
+        <div class="Y_ship_img">
+          <img
+            src="https://5.imimg.com/data5/ECOM/Default/2022/6/FF/NK/FN/61819412/florallips2-500x500.jpg"
+            alt=""
+          />
+        </div>
+
+        <h4>Floral Lips phone cover</h4>
+
+        <p class="Y_ship_price">₹ 699</p>
+
+        <button>Buy Now</button>
+
+        <p>Artist Space & design</p>
+      </div>
+
+      <div class="Y_ship_product_box">
+        <div class="Y_ship_img">
+          <img
+            src="https://5.imimg.com/data5/ECOM/Default/2022/5/EP/OO/CJ/65058394/h2c244c67301f4fbd8f4a53e4689c4c3eh-500x500.png"
+            alt=""
+          />
+        </div>
+
+        <h4>5 In 1 Lipstick Combination</h4>
+
+        <p class="Y_ship_price">₹ 499</p>
+
+        <button>Buy Now</button>
+
+        <p>TRENDY FASHION HUB</p>
+      </div>
+
+      <div class="Y_ship_product_box">
+        <div class="Y_ship_img">
+          <img
+            src="https://5.imimg.com/data5/ECOM/Default/2022/2/UB/UL/RV/147540438/product-image-1516284260-500x500.jpg"
+            alt=""
+          />
+        </div>
+
+        <h4>Qibest Matte Velvet Lipstick</h4>
+
+        <p class="Y_ship_price">₹ 548</p>
+
+        <button>Buy Now</button>
+
+        <p>Aadhyacollections</p>
+      </div>
+
+      <div class="Y_ship_product_box">
+        <div class="Y_ship_img">
+          <img
+            src="https://5.imimg.com/data5/ECOM/Default/2022/2/AY/IF/UV/11390531/makeasplash-500x500.jpg"
+            alt=""
+          />
+        </div>
+
+        <h4>Gush Beauty Play Paint</h4>
+
+        <p class="Y_ship_price">₹ 550</p>
+
+        <button>Buy Now</button>
+
+        <p>Garima Collection</p>
+      </div>
+
+      <div class="Y_ship_product_box">
+        <div class="Y_ship_img">
+          <img
+            src="https://5.imimg.com/data5/ECOM/Default/2022/3/VS/YZ/LH/149518787/2-500x500.png"
+            alt=""
+          />
+        </div>
+
+        <h4>Pinkline Liquid Matte Lipstick</h4>
+
+        <p class="Y_ship_price">₹ 799</p>
+
+        <button>Buy Now</button>
+
+        <p>AM Enterprise</p>
+      </div>
+    </div>
+
+    <div id="Y_form_div">
+      <h3>Tell us what you need, and we'll help you get quotes</h3>
+
+      <form>
+        <div>
+          <p>I want quotes for</p>
+          <input
+            class="Y_form_input"
+            type="text"
+            placeholder="Cosmetics, Hair & Beauty Products"
+          />
+        </div>
+
+        <div>
+          <p>Name</p>
+          <input
+            class="Y_form_input"
+            type="text"
+            placeholder="Enter your name"
+          />
+        </div>
+
+        <div>
+          <p>Quantity</p>
+          <input class="Y_form_input" type="text" placeholder="Piece" />
+        </div>
+
+        <div>
+          <p>Briefly describe your requirement</p>
+          <input
+            class="Y_form_input"
+            type="text"
+            placeholder="Additional details about your requirements..."
+          />
+        </div>
+
+        <div id="Y_form_button">
+          <input type="submit" value="Submit Requirement" />
+        </div>
+      </form>
+    </div>
+
+    <!-- Related Products from Top Suppliers -->
+
+    <h2 id="Y_related_products">Related Products from Top Suppliers</h2>
+
+    <div id="Y_related_products_container">
+      <div id="Y_related_products_box">
+        <div id="Y_related_products_img">
+          <img
+            src="https://4.imimg.com/data4/XE/JA/MY-2718105/ladies-beauty-lipstick-250x250.jpg"
+            alt=""
+          />
+        </div>
+
+        <h3>Ladies Beauty Lipstick</h3>
+
+        <p>Rs 90/ Unit</p>
+        <p><i class="fa-solid fa-circle-check"></i> Shivani Cosmetics</p>
+        <p>Daya Basti, Delhi, India</p>
+        <p><i class="fa-solid fa-phone"></i> Call 08046065670</p>
+
+        <button>Contact Supplier</button>
+      </div>
+
+      <div id="Y_related_products_box">
+        <div id="Y_related_products_img">
+          <img
+            src="https://4.imimg.com/data4/MB/UW/MY-2718105/ladies-candy-lipstick-250x250.jpg"
+            alt=""
+          />
+        </div>
+
+        <h3>Ladies Candy Lipstick</h3>
+
+        <p>Rs 90/ Unit</p>
+        <p><i class="fa-solid fa-circle-check"></i> Shivani Cosmetics</p>
+        <p>Daya Basti, Delhi, India</p>
+        <p><i class="fa-solid fa-phone"></i> Call 08046065670</p>
+
+        <button>Contact Supplier</button>
+      </div>
+
+      <div id="Y_related_products_box">
+        <div id="Y_related_products_img">
+          <img
+            src="https://5.imimg.com/data5/SELLER/Default/2020/8/XN/GN/LI/31775416/silvi-smooth-lipstick-and-smooth-velvet-lipstick-4-gm-250x250.jpg"
+            alt=""
+          />
+        </div>
+
+        <h3>Velvet Lipstick</h3>
+
+        <p>Rs 840/ Dozen</p>
+        <p>
+          <i class="fa-solid fa-circle-check"></i> Silvi Herbals And Beauty
+          Treats
+        </p>
+        <p>Delhi, Delhi, India</p>
+        <p><i class="fa-solid fa-phone"></i>Call 08047638783</p>
+
+        <button>Contact Supplier</button>
+      </div>
+
+      <div id="Y_related_products_box">
+        <div id="Y_related_products_img">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2021/12/TE/LH/VU/5725369/product-jpeg-250x250.jpg"
+            alt=""
+          />
+        </div>
+
+        <h3>Lipstick</h3>
+
+        <p>Rs 15/ Piece</p>
+        <p><i class="fa-solid fa-circle-check"></i> Cee Con Products</p>
+        <p>Delhi, India</p>
+        <p><i class="fa-solid fa-phone"></i> Call 08046079029</p>
+
+        <button>Contact Supplier</button>
+      </div>
+    </div>
+
+    <!-- Related Categories -->
+
+    <h2 id="Y_related_cat">Related Categories</h2>
+
+    <div id="Y_related_cat_container">
+      <div class="Y_related_cat_box">
+        <div id="Y_related_img">
+          <img
+            src="https://3.imimg.com/data3/EP/VJ/GLADMIN-105850/cosmetics-250x250.jpg"
+            alt=""
+          />
+        </div>
+
+        <h3>Cosmetics</h3>
+      </div>
+
+      <div class="Y_related_cat_box">
+        <div id="Y_related_img">
+          <img
+            src="https://5.imimg.com/data5/JM/OT/KQ/GLADMIN-68087/cosmetic-third-party-manufacturing-250x250.jpg"
+            alt=""
+          />
+        </div>
+
+        <h3>Cosmetic Third Party Manufacturing</h3>
+      </div>
+
+      <div class="Y_related_cat_box">
+        <div id="Y_related_img">
+          <img
+            src="https://3.imimg.com/data3/TT/GW/GLADMIN-21908/beauty-cosmetics-250x250.jpg"
+            alt=""
+          />
+        </div>
+
+        <h3>Beauty Cosmetics</h3>
+      </div>
+
+      <div class="Y_related_cat_box">
+        <div id="Y_related_img">
+          <img
+            src="https://5.imimg.com/data5/ZB/JY/DJ/GLADMIN-68087/matte-lipstick-250x250.png"
+            alt=""
+          />
+        </div>
+
+        <h3>Matte Lipstick</h3>
+      </div>
+
+      <div class="Y_related_cat_box">
+        <div id="Y_related_img">
+          <img
+            src="https://3.imimg.com/data3/KG/HH/GLADMIN-11601/lip-balm-250x250.jpg"
+            alt=""
+          />
+        </div>
+
+        <h3>Lip Balm</h3>
+      </div>
+
+      <div class="Y_related_cat_box">
+        <div id="Y_related_img">
+          <img
+            src="https://3.imimg.com/data3/IF/CY/GLADMIN-108453/liquid-lipstick-250x250.jpg"
+            alt=""
+          />
+        </div>
+
+        <h3>Liquid Lipstick</h3>
+      </div>
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <div id="footer"></div>
+
+  </body>
+</html>
+
+<!-- <script type="module" src="./Scripts/navbar.js"></script>
+<script type="module" src="./Scripts/footer.js"></script> -->
