@@ -1,0 +1,34 @@
+*{
+    font-family: sans-serif;
+}
+#cont{
+    border:none;
+    width:50%;
+    height: 350px;
+    margin: auto;
+    text-align:center ;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 5px;
+    padding:10px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+     0.3em 0.3em 1em rgba(0,0,0,0.25);
+}
+button{
+    width: 320px;
+    height: 50px;
+    background-color: rgb(18, 163, 18);
+    color: whitesmoke;
+    font-size: 18px;
+    border-style: none;
+}
+img{
+    width:50px;
+    height: 50px;
+    background-size: contain;
+    margin-top: 30px;
+}
+button:hover,button:focus{
+    cursor: pointer;
+}
