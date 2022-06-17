@@ -1,7 +1,23 @@
 import navbar from "../components/navigation_part.js";
 
 let navbar_div = document.getElementById("navbar");
-navbar_div.innerHTML = navbar("Govind");
+
+let user = JSON.parse(localStorage.getItem("users")) || [];
+
+//will check first if the signin data is empty
+if (user === undefined) {
+  navbar_div.innerHTML = navbar("signin");
+
+  //will check is signup data has any data, if data exists locate users to signin else in signup page
+
+  document.getElementById("gs-signin").addEventListener("click", () => {
+    alert("go somewhere, do something");
+
+    window.location.href = "./html/signup.html";
+  });
+} else {
+  navbar_div.innerHTML = navbar("user[0].fname");
+}
 
 // navbar functionality
 let gsproduct = document.getElementById("gsproduct");
