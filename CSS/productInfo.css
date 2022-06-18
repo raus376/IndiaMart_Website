@@ -36,6 +36,14 @@
     margin-bottom: 10px;
     margin-top: 10px;
 }
+#details>h2+p{
+    color: #2E3192;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#details>h2+p:hover{
+    text-decoration: none;
+}
 #details ul{
     margin-left: 20px;
     color: rgb(55, 55, 55);
