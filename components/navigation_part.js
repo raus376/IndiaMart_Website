@@ -38,7 +38,7 @@ function navbar(username) {
             <i class="fa-solid fa-message"></i>
             <p>Messages</p>
           </div>
-          <div>
+          <div id="gs-signin">
             <i class="fa-solid fa-user"></i>
             <p>${username}</p>
           </div>
