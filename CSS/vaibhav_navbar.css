@@ -1,0 +1,412 @@
+#navbar * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbar {
+  margin-bottom: 30px;
+}
+#footer {
+  margin-top: 30px;
+}
+
+/* whole icons styling */
+#navbar i {
+  margin-right: 5px;
+}
+#navbar .fa-location-dot,
+#navbar .fa-thumbs-up {
+  background-color: gray;
+  color: #fff;
+  border-radius: 50%;
+}
+
+#top-navbar button .fa-phone-volume {
+  transform: rotate(-45deg);
+  font-size: 16px;
+}
+
+#navbar .fa-check {
+  background-color: rgb(14, 244, 14);
+  color: #fff;
+  border-radius: 50%;
+}
+
+#navbar .fa-star {
+  margin: 0;
+  padding: 0;
+  color: gold;
+}
+#navbar .fa-star:nth-last-child(1) {
+  color: rgb(212, 211, 211);
+}
+/*icons styling ends*/
+
+#navbar-container {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Top navbar styling*/
+#top-navbar {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  margin-top: 80px;
+}
+#top-navbar #logo {
+  width: 100px;
+  height: 100px;
+}
+#top-navbar button {
+  margin-left: auto;
+  align-self: flex-end;
+  padding: 10px 20px;
+  border: 1px solid teal;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: teal;
+  cursor: pointer;
+}
+#top-navbar button:hover {
+  color: rgb(2, 201, 201);
+}
+
+#top-navbar > div {
+  margin: auto;
+  margin-left: 15px;
+}
+#top-navbar > div > div p > i {
+  padding: 2px;
+  font-size: 12px;
+}
+#top-navbar > div > div {
+  display: flex;
+  justify-content: center;
+  /* gap: 10px; */
+}
+#top-navbar > div h1 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 28px;
+}
+#top-navbar > div > div p:not(:nth-last-child(1)) {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid black;
+}
+
+/* Bottom Navbar / Main Navbar*/
+#bottom-navbar {
+  display: flex;
+  margin-top: 15px;
+  position: relative;
+}
+#gslink {
+  display: flex;
+  align-items: center;
+  width: 78%;
+  background-color: #eaeaf4;
+  justify-content: flex-start;
+}
+
+#gslink > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0 40px;
+  cursor: pointer;
+  height: 100%;
+}
+#gslink > p:hover:not(.active) {
+  background-color: rgb(246, 246, 246);
+}
+#gslink .active {
+  cursor: default;
+  background-color: #2d3192;
+  color: #fff;
+}
+#bottom-navbar > button {
+  display: block;
+  margin-left: auto;
+  padding: 15px 60px;
+  border: 1px solid #fff;
+  background-color: teal;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#bottom-navbar > button:hover {
+  transform: scale(105%);
+}
+
+/* product sub menu design */
+#product-sub-menu {
+  display: none;
+  width: 100%;
+  transition: 0.5ms ease-in;
+  position: absolute;
+  top: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 20px;
+  background-color: rgb(246, 246, 246);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+#product-sub-menu a {
+  text-decoration: none;
+  color: #000;
+}
+#product-sub-menu a:hover {
+  text-decoration: underline;
+}
+#more-link {
+  font-size: 14px;
+  color: blue !important;
+  text-decoration: underline !important;
+}
+#more-link:hover {
+  text-decoration: none !important;
+}
+#product-sub-menu h3 {
+  margin-bottom: 20px;
+}
+#product-sub-menu p {
+  margin: 10px auto;
+  font-size: 15px;
+}
+#product-sub-menu > div {
+  display: flex;
+  flex-direction: column;
+}
+#product-sub-menu > div > div:nth-child(1) {
+  margin-bottom: 20px;
+  height: 160px;
+}
+#product-sub-menu > div:nth-child(2) {
+  padding-left: 20px;
+}
+#product-sub-menu button {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 1px solid teal;
+  color: teal;
+  cursor: pointer;
+  border-radius: 5px;
+
+  background: linear-gradient(to right, teal 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+#product-sub-menu button:hover {
+  background-position: left bottom;
+  color: #fff;
+}
+
+/* About Us Submenu*/
+#about-us-submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  padding: 20px 30px;
+  width: 22%;
+  background-color: rgb(246, 246, 246);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+#about-us-submenu a {
+  text-decoration: none;
+  color: #000;
+}
+#about-us-submenu a:hover {
+  text-decoration: underline;
+}
+#about-us-submenu p {
+  font-size: 16px;
+}
+#about-us-submenu p:not(:nth-last-child(1)) {
+  margin-bottom: 15px;
+}
+
+/*  India mart navigation option */
+
+#indiamart-menu {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e3192;
+  color: white;
+  width: 100%;
+  padding: 10px 30px;
+  z-index: 1;
+}
+#indiamart-menu > div {
+  display: flex;
+}
+#gs-left-side {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#gs-left-side > div {
+  display: flex;
+}
+#indiamart-menu img {
+  width: 100%;
+}
+#indiamart-logo {
+  width: 150px;
+}
+
+#indiamart-search > select {
+  border: 1px solid rgb(226, 225, 225);
+  color: black;
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+#gs-searchinput {
+  width: 350px;
+  padding: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  outline: none;
+  border: 0;
+}
+#gs-searchinput::placeholder {
+  color: rgb(216, 216, 216);
+}
+#gs-searchbtn {
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  background-color: #00a699;
+  border: 0;
+  padding: 10px 25px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#gs-searchbtn:hover {
+  background-color: #037c72;
+}
+
+#gs-best-price {
+  cursor: pointer;
+  font-size: 12px;
+  color: #2e3192;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-left: 30px;
+  border: 0;
+  padding: 10px;
+}
+
+#indiamart-links > div {
+  margin-left: 20px;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  align-items: center;
+}
+#indiamart-links i {
+  color: #00a699;
+}
+
+#gs-showsearch-result {
+  display: none;
+  position: absolute;
+  width: 42.4%;
+  background-color: rgb(253, 253, 253);
+  top: 96%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  left: 30.2%;
+  z-index: 1;
+}
+#gs-showsearch-result p {
+  color: #000;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-bottom: 1px solid rgb(203, 203, 203);
+}
+
+/*Indiamart menu end*/
+
+/* Media query start */
+@media screen and (max-width: 1100px) {
+  #navbar-container {
+    width: 95%;
+  }
+  #top-navbar > div h1 {
+    font-size: 26px !important;
+  }
+  #navbar i {
+    font-size: 8px;
+  }
+  #top-navbar > div > div p {
+    font-size: 12px;
+  }
+  #top-navbar #logo {
+    width: 90px;
+    height: 90px;
+  }
+  #top-navbar button {
+    padding: 10px 14px;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  #top-navbar button .fa-phone-volume {
+    font-size: 15px;
+    padding: 0;
+  }
+  .fa-envelope:before {
+    font-size: 14px;
+  }
+  /* main navbar */
+  #gslink > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0 30px;
+    cursor: pointer;
+    height: 100%;
+  }
+  #bottom-navbar > button {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+  #product-sub-menu h3 {
+    margin-bottom: 16px;
+  }
+  #product-sub-menu p {
+    font-size: 14px;
+  }
+  #product-sub-menu button {
+    font-size: 14px;
+    margin-top: 50px;
+    padding: 10px 20px;
+  }
+}

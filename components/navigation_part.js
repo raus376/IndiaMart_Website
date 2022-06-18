@@ -4,7 +4,7 @@ function navbar(username) {
 
         <div id="gs-left-side">
           <div id="indiamart-logo">
-            <a href="#"><img src="./images/indiamartlogo.PNG" alt=""></a>
+            <a href="../index.html"><img src="./images/indiamartlogo.PNG" alt=""></a>
           </div>
 
           <div id="indiamart-search">
