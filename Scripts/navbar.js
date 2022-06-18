@@ -75,14 +75,17 @@ function searchFunction() {
     showResults.style.display = "none";
   }
 
-  let results = "ruko jara sabra karo";
-  appendSearchResults(showResults, results);
+  // let results = "ruko jara sabra karo";
+  appendSearchResults();
 }
 
-function appendSearchResults(showResults, results) {
+function appendSearchResults() {
   showResults.innerHTML = null;
   let p = document.createElement("p");
-  p.innerText = results;
+  p.innerText = "Mix Fruit Scrub";
+  let d = document.createElement("p");
+  d.innerText = "Fairness Scrub";
+  
 
-  showResults.append(p);
+  showResults.append(p,d);
 }
