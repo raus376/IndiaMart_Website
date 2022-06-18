@@ -1,13 +1,19 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+/* *{
+    /* margin: 0px;
+    padding: 0px; */
+    /* box-sizing: border-box; */
+    /* font-family: 'Poppins', sans-serif; */
+/* } */ */
 
 #vkMainCont{
     /* border: 1px solid black; */
     /* height: 100vh; */
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+#vkMainCont{
     display: flex;
     padding-left: 40px;
     padding-right: 40px;

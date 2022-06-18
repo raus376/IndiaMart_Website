@@ -289,6 +289,8 @@ localStorage.setItem("exploreData",JSON.stringify(exploreDat))
 let data = JSON.parse(localStorage.getItem("data")) 
 let exploreData = JSON.parse(localStorage.getItem("exploreData"))  
 
+// let rdetails = JSON.parse(localStorage.getItem("users"))
+
 console.log(data)
 let minCard = document.getElementById("vkMinCard")
 let productsDiv = document.getElementById("vkProductDiv")
@@ -399,16 +401,51 @@ let appendProducts = (data)=>{
             list.append(listingItems)
         }
         image.addEventListener("click",()=>{
-            showPayment(el)
+            // showPayment(el)
+            // document.querySelector("#rrimg").innerHTML=null;
+            
+            let rcheck2=JSON.parse(localStorage.getItem("users"));
+          let rcheck1=  localStorage.setItem("rdata",JSON.stringify(el))
+          console.log(rcheck1)
+
+            document.body.classList.add("popup-active")
+            console.log(rcheck1)
+            console.log(rcheck2)
+
         })
+        
         getQuote.addEventListener("click",()=>{
-            showPayment(el)
+            // showPayment(el)
+            // document.querySelector("#rrimg").innerHTML=null;
+            let rcheck2=JSON.parse(localStorage.getItem("users"));
+          let rcheck1=  localStorage.setItem("rdata",JSON.stringify(el))
+          console.log(rcheck1)
+
+            document.body.classList.add("popup-active")
+            console.log(rcheck1)
+            console.log(rcheck2)
         })
         latestPrice.addEventListener("click",()=>{
-            showPayment(el)
+            // showPayment(el)
+            // document.querySelector("#rrimg").innerHTML=null;
+            let rcheck2=JSON.parse(localStorage.getItem("users"));
+          let rcheck1=  localStorage.setItem("rdata",JSON.stringify(el))
+          console.log(rcheck1)
+
+            document.body.classList.add("popup-active")
+            console.log(rcheck1)
+            console.log(rcheck2)
         })
         intrestedBtn.addEventListener("click",()=>{
-            showPayment(el)
+            // showPayment(el)
+            // document.querySelector("#rrimg").innerHTML=null;
+            let rcheck2=JSON.parse(localStorage.getItem("users"));
+          let rcheck1=  localStorage.setItem("rdata",JSON.stringify(el))
+          console.log(rcheck1)
+
+            document.body.classList.add("popup-active")
+            console.log(rcheck1)
+            console.log(rcheck2)
         })
 
         imgDiv.append(image,intrested,getQuote)
