@@ -1,14 +1,17 @@
- var robj={
-      id:21,
-      category:"scrubs",
-      image:"https://3.imimg.com/data3/QC/FL/MY-3792183/fairness-scrub-500x500.jpg",
-      title:"Fairness Scrub",
-      content:["Skin undergoes a natural renewal process where upper skin cells become dead and accumulated with other impurities, hiding skin's freshest layer. Blue heaven's unique deep root exfoliating formula blended with mild surfactants. Fairness vitamins and aloe vera to serve."]
-   }
+//  var robj={
+//       id:21,
+//       category:"scrubs",
+//       image:"https://3.imimg.com/data3/QC/FL/MY-3792183/fairness-scrub-500x500.jpg",
+//       title:"Fairness Scrub",
+//       content:["Skin undergoes a natural renewal process where upper skin cells become dead and accumulated with other impurities, hiding skin's freshest layer. Blue heaven's unique deep root exfoliating formula blended with mild surfactants. Fairness vitamins and aloe vera to serve."]
+//    }
 
 var rdetails=JSON.parse(localStorage.getItem("users"));
 rdetails=rdetails[0];
-// var robj=JSON.parse(localStorage.getItem("rdata"));
+var robj=JSON.parse(localStorage.getItem("rdata"));
+console.log(robj)
+// console.log(el)
+// var robj=el;
 
 
 // var rdetails={
@@ -75,10 +78,11 @@ function rstart(){
 
     close.addEventListener("click",function(){
         document.body.classList.remove("popup-active")
+        document.querySelector("#rrimg").innerHTML=null;
         document.querySelector("#rinpinp").value=null;
-        document.querySelector("#rcheckbox1").value=null;
-        document.querySelector("#rcheckbox2").value=null;
-        document.querySelector("#rcheckbox3").value=null;
+        // document.querySelector("#rcheckbox1").value=null;
+        // document.querySelector("#rcheckbox2").value=null;
+        // document.querySelector("#rcheckbox3").value=null;
     })
 
     let dis2=document.querySelector("#rnext");
@@ -86,10 +90,10 @@ function rstart(){
         document.body.classList.remove("popup-active");
         document.body.classList.add("popup-active2")
         document.querySelector("#rinpinp").value=null;
-        document.querySelector("#rcheckbox1").value=null
-        ;
-        document.querySelector("#rcheckbox2").value=null;
-        document.querySelector("#rcheckbox3").value=null;
+        // document.querySelector("#rcheckbox1").value=null
+        // ;
+        // document.querySelector("#rcheckbox2").value=null;
+        // document.querySelector("#rcheckbox3").value=null;
     })
 
     let close2=document.querySelector(".cancel2");
