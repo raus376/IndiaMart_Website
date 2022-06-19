@@ -101,110 +101,110 @@ function navbar(username) {
             <div>
                 <div>
                     <h3>
-                        <a href="#">Makeup</a>
+                        <a href="../makeup.html">Makeup</a>
                     </h3>
                     <p>
-                        <a href="#">Foundation</a>
+                        <a href="../makeup.html">Foundation</a>
                     </p>
                     <p>
-                        <a href="#">Compact</a>
+                        <a href="../makeup.html">Compact</a>
                     </p>
                     <p>
-                        <a href="#">Pan Cake Foundation</a>
+                        <a href="../makeup.html">Pan Cake Foundation</a>
                     </p>
                     <p>
-                        <a href="#">Pan Stick Foundation</a>
+                        <a href="../makeup.html">Pan Stick Foundation</a>
                     </p>
                 </div>
                 <div>
                     <h3>
-                        <a href="#">Lipstick</a>
+                        <a href="../lipstick.html">Lipstick</a>
                     </h3>
                     <p>
-                        <a href="#">Baked Brick Lipstick</a>
+                        <a href="../lipstick.html">Baked Brick Lipstick</a>
                     </p>
                     <p>
-                        <a href="#">Cerise Pink Lipstick</a>
+                        <a href="../lipstick.html">Cerise Pink Lipstick</a>
                     </p>
                     <p>
-                        <a href="#">Coral Red Lipstick</a>
+                        <a href="../lipstick.html">Coral Red Lipstick</a>
                     </p>
                     <p>
-                        <a href="#">Desert Rose Lipstick</a>
+                        <a href="../lipstick.html">Desert Rose Lipstick</a>
                     </p>
-                    <a href="#" id="more-link">...more</a>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <h3>
-                        <a href="#">Lips Products</a>
-                    </h3>
-                    <p>
-                        <a href="#">Lip Gloss</a>
-                    </p>
-                    <p>
-                        <a href="#">Lip Stick</a>
-                    </p>
-                    <p>
-                        <a href="#">Lip Liner</a>
-                    </p>
-                </div>
-                <div>
-                    <h3>
-                        <a href="#">Bleach Cream</a>
-                    </h3>
-                    <p>
-                        <a href="#">Fruit Bleach</a>
-                    </p>
-                    <p>
-                        <a href="#">Gold Bleach</a>
-                    </p>
-                    <p>
-                        <a href="#">Personal Bleach</a>
-                    </p>
+                    <a href="../lipstick.html" id="more-link">...more</a>
                 </div>
             </div>
             <div>
                 <div>
                     <h3>
-                        <a href="#">Scrubs</a>
+                        <a href="../lipsProducts.html">Lips Products</a>
                     </h3>
                     <p>
-                        <a href="#">Fairness Scrub</a>
+                        <a href="../lipsProducts.html">Lip Gloss</a>
                     </p>
                     <p>
-                        <a href="#">Mix Fruit Scrub</a>
+                        <a href="../lipsProducts.html">Lip Stick</a>
                     </p>
                     <p>
-                        <a href="#">Facial Scrub - Wallnur & Appricot</a>
+                        <a href="../lipsProducts.html">Lip Liner</a>
                     </p>
                 </div>
                 <div>
                     <h3>
-                        <a href="#">Eyes Products</a>
+                        <a href="../bleachCream.html">Bleach Cream</a>
                     </h3>
                     <p>
-                        <a href="#">Masacara</a>
+                        <a href="../bleachCream.html">Fruit Bleach</a>
                     </p>
                     <p>
-                        <a href="#">Eye Shadow</a>
+                        <a href="../bleachCream.html">Gold Bleach</a>
                     </p>
                     <p>
-                        <a href="#">Eye Liner</a>
+                        <a href="../bleachCream.html">Personal Bleach</a>
                     </p>
                 </div>
             </div>
             <div>
                 <div>
                     <h3>
-                        <a href="#">Lip Care</a>
+                        <a href="../scrubs.html">Scrubs</a>
                     </h3>
                     <p>
-                        <a href="#">Lip Balm</a>
+                        <a href="../scrubs.html">Fairness Scrub</a>
                     </p>
                     <p>
-                        <a href="#">Lip Guard</a>
+                        <a href="../scrubs.html">Mix Fruit Scrub</a>
+                    </p>
+                    <p>
+                        <a href="../scrubs.html">Facial Scrub - Wallnur & Appricot</a>
+                    </p>
+                </div>
+                <div>
+                    <h3>
+                        <a href="../eyesProducts.html">Eyes Products</a>
+                    </h3>
+                    <p>
+                        <a href="../eyesProducts.html">Masacara</a>
+                    </p>
+                    <p>
+                        <a href="../eyesProducts.html">Eye Shadow</a>
+                    </p>
+                    <p>
+                        <a href="../eyesProducts.html">Eye Liner</a>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h3>
+                        <a href="../lipcare.html">Lip Care</a>
+                    </h3>
+                    <p>
+                        <a href="../lipcare.html">Lip Balm</a>
+                    </p>
+                    <p>
+                        <a href="../lipcare.html">Lip Guard</a>
                     </p>
                 </div>
                 <div>
