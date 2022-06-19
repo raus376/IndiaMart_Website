@@ -633,16 +633,16 @@ function rstart(){
         document.querySelector("#rcompname").value=null;
         document.querySelector("#rinpgst").value=null;
 
-        // setTimeout(function(){
+        setTimeout(function(){
 
-        //     if(rid)
-        //     {
-        //         clearTimeout(rid)
-        //     }
+            if(rid)
+            {
+                clearTimeout(rid)
+            }
     
-        //     window.location.href="index.html"
+            window.location.href="index.html"
     
-        // },7000)
+        },10000)
 
       }
      
@@ -678,7 +678,7 @@ name:"Beauty People",
 price:275,
 supplier:"3G Channel"},
 {img:"http://5.imimg.com/data5/ECOM/Default/2022/6/HP/TP/AC/147540438/product-image-1348594280-250x250.jpg",
-name:"Mascara Waterproof",
+name:"Mascara ",
 price:499,
 supplier:"Adhya Collection"},
 {img:"http://5.imimg.com/data5/ECOM/Default/2022/5/DP/QN/AD/11390531/natureupblackmascara-eyeliner-250x250.jpg",

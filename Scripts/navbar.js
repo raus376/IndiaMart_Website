@@ -4,6 +4,10 @@ let navbar_div = document.getElementById("navbar");
 
 let user = JSON.parse(localStorage.getItem("users")) || [];
 
+let rrseach=JSON.parse(localStorage.getItem("data"));
+
+
+
 
 if (user[0] === undefined) {
   navbar_div.innerHTML = navbar("signin");
@@ -68,24 +72,68 @@ searchbtn.addEventListener("click", searchFunction);
 searchbox.addEventListener("input", searchFunction);
 
 function searchFunction() {
+
+  // console.log(rrseach)
   let searchValue = searchbox.value;
   showResults.style.display = "block";
 
   if (searchValue == "") {
     showResults.style.display = "none";
   }
-
-  // let results = "ruko jara sabra karo";
-  appendSearchResults();
-}
-
-function appendSearchResults() {
-  showResults.innerHTML = null;
-  let p = document.createElement("p");
-  p.innerText = "Mix Fruit Scrub";
-  let d = document.createElement("p");
-  d.innerText = "Fairness Scrub";
   
 
-  showResults.append(p,d);
+  // let results = "ruko jara sabra karo";
+  appendSearchResults(searchValue);
 }
+
+function appendSearchResults(value) {
+  showResults.innerHTML = null;
+
+
+  rrseach.forEach((el) => {
+
+    if(value == el.category)
+    {
+
+      let p = document.createElement("p");
+
+      p.innerText = el.title;
+      showResults.append(p);
+
+      p.addEventListener('click', () =>{
+        
+        if(el.category == "lipstick"){
+          window.location.href="../lipstick.html"
+        }
+        else if(el.category == "makeup")
+        {
+          window.location.href="../makeup.html"
+        }
+        else if(el.category == "bleachCream")
+        {
+          window.location.href="../bleachCream.html"
+        }
+        else if(el.category == "lipcare")
+        {
+          window.location.href="../lipcare.html"
+        }
+        else if(el.category == "scrubs")
+        {
+          window.location.href="../scrubs.html"
+        }
+        else if(el.category == "lipsProducts")
+        {
+          window.location.href="../lipsProducts.html"
+        }
+
+      });
+      
+    }
+   
+
+
+
+  })
+  
+}
+

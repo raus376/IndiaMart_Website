@@ -288,7 +288,7 @@ localStorage.setItem("exploreData",JSON.stringify(exploreDat))
 document
   .querySelector(".Y_link_foundation")
   .addEventListener("click", function () {
-    window.location.href = "./productinfo.html";
+    window.location.href = "../makeup.html";
   });
 
 document.querySelector(".Y_link_scrub").addEventListener("click", function () {

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./CSS/navbar.css">
     <link rel="stylesheet" href="./CSS/footer.css">
     <link rel="stylesheet" href="./CSS/productPageCopy.css">
+    <link rel="stylesheet" href="./CSS/makeup-billing.css">
 </head>
 <body>
     <div id="navbar"></div>
@@ -33,527 +34,198 @@
     <div id="exploreDiv"></div>
 
 
-    <!-- REVIEWS & RATING -->
+    <button id="click"></button>
+    <div id="rtransition"></div>
 
-    <h2 id="Y_rating_heading">Reviews & Rating</h2>
+    <!-- first page -->
 
-    <div id="Y_rating">
-      <span class="heading">User Rating</span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star"></span>
-      <p>4.1 average based on 254 reviews.</p>
-      <hr style="border: 3px solid #f1f1f1" />
+    <div id="rcontainer">
+        <div id="rfirst">
+            <div id="rimg"></div>
+            <div id="rtitle"></div>
+            <p>Sold By - Blue Heaven Cosmetics (P) Ltd. New Delhi, Delhi</p>
+        </div>
+        <div id="rsecond">
+            <h2 id="rdet">Adding a few detals of your requirement can get your quick response from the supplier</h2>
+            <p>Quantity</p>
+            <div id="rquantity">
+                <div id="rinput"><input type="number" id="rinpinp"></div>
+                <div id="rpiece"><p>Piece</p></div>
+            </div>
 
-      <div class="row">
-        <div class="side">
-          <div>5 star</div>
+            <p>Total Order Value(RS)</p>
+           <div id="rselect">
+            <select >
+                <option value="">Select a Value</option>
+                <option value="">Upto 1,000</option>
+                <option value="">1,000 to 3000</option>
+                <option value="">3,000 to 10,000</option>
+                <option value="">10,000 to 20,000</option>
+                <option value="">20,000 to 50,000</option>
+                <option value="">50,000 to 1Lakh</option>
+                <option value="">1Lakh to 2Lakh</option>
+                <option value="">2Lakh to 5Lakh</option>
+                <option value="">5Lakh to 10Lakh</option>
+                <option value="">10Lakh to 20Lakh</option>
+                <option value="">20Lakh to 50Lakh</option>
+                <option value="">50Lakh to 1 Crore</option>
+                <option value="">More than 1 Crore</option>
+            </select>
         </div>
-        <div class="middle">
-          <div class="bar-container">
-            <div class="bar-5"></div>
-          </div>
+
+            <p>Why do you need this</p>
+            <div id="rneed">
+                <div><input id="rcheckbox1" type="checkbox">For Selling</div>
+
+             <div><input id="rcheckbox2" type="checkbox">For Bussiness Use</div>
+             <div><input id="rcheckbox2" type="checkbox">For Home Use</div>          
+            </div>
+
+            <div id="rnext"><button>Next</button></div>    
+
+            <div id="rinformation">
+                <h4>Your Contact Information</h4>
+               <h5 id="rname"></h5>
+               <div id="rnum-gmail">
+                <div id="rnumber"></div>
+                <div>|</div>
+                <div id="rgmail"></div>
+               </div>
+            </div>
+            
         </div>
-        <div class="side right">
-          <div>150</div>
-        </div>
-        <div class="side">
-          <div>4 star</div>
-        </div>
-        <div class="middle">
-          <div class="bar-container">
-            <div class="bar-4"></div>
-          </div>
-        </div>
-        <div class="side right">
-          <div>63</div>
-        </div>
-        <div class="side">
-          <div>3 star</div>
-        </div>
-        <div class="middle">
-          <div class="bar-container">
-            <div class="bar-3"></div>
-          </div>
-        </div>
-        <div class="side right">
-          <div>15</div>
-        </div>
-        <div class="side">
-          <div>2 star</div>
-        </div>
-        <div class="middle">
-          <div class="bar-container">
-            <div class="bar-2"></div>
-          </div>
-        </div>
-        <div class="side right">
-          <div>6</div>
-        </div>
-        <div class="side">
-          <div>1 star</div>
-        </div>
-        <div class="middle">
-          <div class="bar-container">
-            <div class="bar-1"></div>
-          </div>
-        </div>
-        <div class="side right">
-          <div>20</div>
-        </div>
-      </div>
+        <div class="cancel">&times;</div>
     </div>
 
-    <div id="Y_review_text">
-      <h3>Most Relevant Reviews</h3>
+  <!-- second page -->
 
-      <div class="Y_review_text_">
-        <div>
-          <img
-            class="Y_text_icon"
-            src="https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg"
-            alt=""
-          />
+  <div id="rcontainer2">
+    <div id="rfirst2">
+        <div id="rimg2"></div>
+        <div id="rtitle2"></div>
+        <p>Sold By - Blue Heaven Cosmetics (P) Ltd. New Delhi, Delhi</p>
+    </div>
+    <div id="rsecond2">
+        <div id="rdet2">
+        <h2>Almost done!</h2>
+        <h4>Requirement Details</h4></div>
+        <div id="radddetails">
+            <input type="text" placeholder="Additional details about your requirement">
+        </div>
+        <div id="rback-next2">
+            <div id="rback2"><</div>
+            <div id="rnext2"><button>Next</button></div>
         </div>
 
-        <div>
-          <h3>Jyoti | New Delhi, Delhi</h3>
-
-          <div id="Y_star">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-          </div>
-
-          <p>15-December-21</p>
+        <div id="rinformation2">
+            <h4>Your Contact Information</h4>
+           <h5 id="rname2"></h5>
+           <div id="rnum-gmail2">
+            <div id="rnumber2"></div>
+            <div>|</div>
+            <div id="rgmail2"></div>
+           </div>
         </div>
-      </div>
-
-      <div class="Y_review_text_">
-        <div>
-          <img
-            class="Y_text_icon"
-            src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg"
-            alt=""
-          />
-        </div>
-
-        <div>
-          <h3>Vishvajit Kumar | Sheohar, Bihar</h3>
-
-          <div id="Y_star">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-          </div>
-
-          <p>27-September-21</p>
-        </div>
-      </div>
     </div>
 
-    <div id="Y_review_button_div">
-      <button id="Y_review_button">View More Reviews</button>
+    <div class="cancel2">&times;</div>
+  </div>
+
+  <!-- Third page -->
+
+<div id="rcontainer3">
+
+    <div id="rfirst3">
+        <div id="rimg3"></div>
+        <div id="rtitle3"></div>
+        <p>Sold By - Blue Heaven Cosmetics (P) Ltd. New Delhi, Delhi</p>
     </div>
 
-    <!-- GET IN TOUCH WITH US -->
+    <div id="rsecond3">
+<h4>Please provide a few details to get quick response from the supplier</h4>
+ <div id="rcomp">
+<div id="rcompany_name">
+    <input id="rcompname" type="text" placeholder="Company/Bussiness Name">
+   </div>
+   <div id="rwhat">?</div>
+   <div id="rdetails3">
+    <li><h3>Make sure your Company name:</h3>
+        <ul>
+            <li>is longer than 4 characters</li>
+            <li>is not the name of contact person</li>
+            <li>is not the name of product you sell</li>
+            <li>is not generic e.g. "textile",'SEO services','travel agency'</li>
+        </ul>
+    </li>
+   </div>
+</div> 
 
-    <div id="Y_address">
-      <h2 id="Y_address_heading">Get in touch with us</h2>
+<div id="rgst"><input type="text" placeholder="GST Number" id="rinpgst"></div>
 
-      <div id="Y_content">
-        <div>
-          <h3>Our Company</h3>
+<div id="rbutton3"><button>Submit</button></div>
 
-          <div id="Y_address_link">
-            <a href="">About Us</a>
-            <a href="">Products & Services</a>
-            <a href="">Contact Us</a>
-            <a href="">Sitemap</a>
-            <a href="">Download Brochure</a>
-          </div>
+<div id="rinformation3">
+    <h4>Your Contact Information</h4>
+   <h5 id="rname3"></h5>
+   <div id="rnum-gmail3">
+    <div id="rnumber3"></div>
+    <div>|</div>
+    <div id="rgmail3"></div>
+   </div>
+
+   
+</div>
+
+
+</div>
+
+<div class="cancel3">&times;</div>
+</div>
+
+
+<!-- Fourth page -->
+
+<div id="rcontainer4">
+    <div id="rfirst4">
+        <div id="rtq">
+            <div>✔</div>
+            <div>Thank You!</div>
         </div>
-
-        <div>
-          <h3>Reach Us</h3>
-
-          <h3>
-            <i class="fa-solid fa-location-dot"></i> Blue Heaven Cosmetics (P)
-            Ltd
-          </h3>
-          <p>
-            No. 39, DLF Industrial Area, Kirti Nagar, New Delhi-110019, Delhi,
-            India
-          </p>
-          <a href="">
-            <i class="fa-solid fa-diamond-turn-right"></i> Get Directions</a
-          >
-
-          <p>
-            <i class="fa-solid fa-address-book"></i> Arvind Srivastava (Manager)
-          </p>
-
-          <h3><i class="fa-solid fa-phone"></i> Call 08048361220</h3>
-          <p>Dial Ext 167 when connected</p>
-
-          <div>
-            <button id="Y_sms_button">
-              <i class="fa-solid fa-comment-sms"></i> Send SMS
-            </button>
-            <button id="Y_email_button">
-              <i class="fa-solid fa-envelope"></i> Send Email
-            </button>
-          </div>
+        <div id="rindmar"><P>IndiaMart has received your requirement</P></div>
+        <div id="rtag">
+         
+            
+            <p>Your requirement has been sent to </p>
+            <h3>Blue Heaven Cosmetics (P) Ltd</h3>
         </div>
-
-        <div>
-          <h3>Leave a Message, we will call you back!</h3>
-
-          <input
-            id="Y_address_input"
-            type="text"
-            placeholder="Additional details about your requirement..."
-          />
-
-          <button id="Y_submit_button">Submit Requirement</button>
-        </div>
-      </div>
-
-      <div id="Y_address_shareus">
-        <i class="fa-solid fa-share-nodes"></i>
-        <h4>Share us via</h4>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
-        <i class="fa-brands fa-twitter"></i>
-      </div>
     </div>
-
-    <!-- Ready to Ship Products in Similar Categories -->
-
-    <h2 id="Y_ship_heading">Ready to Ship Products in Similar Categories</h2>
-
-    <div id="Y_ship_product_container">
-      <div class="Y_ship_product_box">
-        <div class="Y_ship_img">
-          <img
-            src="https://5.imimg.com/data5/ECOM/Default/2022/5/OV/MA/BH/112041886/jpg-20220424-122355-0000-500x500.jpg"
-            alt=""
-          />
+   
+    <div class="rline"></div>
+   
+    <div id="rsecond4">
+        <div><h3>Want to add/edit your details to your requirement? Do it here:</h3></div>
+        <div id="rmsg">
+            <i class="fa-regular fa-message"></i>
+            <p>View Messages</p>
         </div>
-
-        <h4>Natural & Chemical Free..</h4>
-
-        <p class="Y_ship_price">₹ 450</p>
-
-        <button>Buy Now</button>
-
-        <p>Mavashivaa - Golden Traders</p>
-      </div>
-
-      <div class="Y_ship_product_box">
-        <div class="Y_ship_img">
-          <img
-            src="https://5.imimg.com/data5/ECOM/Default/2022/6/UU/PA/IS/9422220/hair-nose-lip-3-color-single-lipstick-moisturizing-color-waterproof-temptation-of-angels-222-500x500.jpg"
-            alt=""
-          />
-        </div>
-
-        <h4>3-color Single Lipstick</h4>
-
-        <p class="Y_ship_price">₹ 1,499 / Unit</p>
-
-        <button>Buy Now</button>
-
-        <p>My Online Collection Stores</p>
-      </div>
-
-      <div class="Y_ship_product_box">
-        <div class="Y_ship_img">
-          <img
-            src="https://5.imimg.com/data5/ECOM/Default/2022/6/FF/NK/FN/61819412/florallips2-500x500.jpg"
-            alt=""
-          />
-        </div>
-
-        <h4>Floral Lips phone cover</h4>
-
-        <p class="Y_ship_price">₹ 699</p>
-
-        <button>Buy Now</button>
-
-        <p>Artist Space & design</p>
-      </div>
-
-      <div class="Y_ship_product_box">
-        <div class="Y_ship_img">
-          <img
-            src="https://5.imimg.com/data5/ECOM/Default/2022/5/EP/OO/CJ/65058394/h2c244c67301f4fbd8f4a53e4689c4c3eh-500x500.png"
-            alt=""
-          />
-        </div>
-
-        <h4>5 In 1 Lipstick Combination</h4>
-
-        <p class="Y_ship_price">₹ 499</p>
-
-        <button>Buy Now</button>
-
-        <p>TRENDY FASHION HUB</p>
-      </div>
-
-      <div class="Y_ship_product_box">
-        <div class="Y_ship_img">
-          <img
-            src="https://5.imimg.com/data5/ECOM/Default/2022/2/UB/UL/RV/147540438/product-image-1516284260-500x500.jpg"
-            alt=""
-          />
-        </div>
-
-        <h4>Qibest Matte Velvet Lipstick</h4>
-
-        <p class="Y_ship_price">₹ 548</p>
-
-        <button>Buy Now</button>
-
-        <p>Aadhyacollections</p>
-      </div>
-
-      <div class="Y_ship_product_box">
-        <div class="Y_ship_img">
-          <img
-            src="https://5.imimg.com/data5/ECOM/Default/2022/2/AY/IF/UV/11390531/makeasplash-500x500.jpg"
-            alt=""
-          />
-        </div>
-
-        <h4>Gush Beauty Play Paint</h4>
-
-        <p class="Y_ship_price">₹ 550</p>
-
-        <button>Buy Now</button>
-
-        <p>Garima Collection</p>
-      </div>
-
-      <div class="Y_ship_product_box">
-        <div class="Y_ship_img">
-          <img
-            src="https://5.imimg.com/data5/ECOM/Default/2022/3/VS/YZ/LH/149518787/2-500x500.png"
-            alt=""
-          />
-        </div>
-
-        <h4>Pinkline Liquid Matte Lipstick</h4>
-
-        <p class="Y_ship_price">₹ 799</p>
-
-        <button>Buy Now</button>
-
-        <p>AM Enterprise</p>
-      </div>
     </div>
-
-    <div id="Y_form_div">
-      <h3>Tell us what you need, and we'll help you get quotes</h3>
-
-      <form>
-        <div>
-          <p>I want quotes for</p>
-          <input
-            class="Y_form_input"
-            type="text"
-            placeholder="Cosmetics, Hair & Beauty Products"
-          />
-        </div>
-
-        <div>
-          <p>Name</p>
-          <input
-            class="Y_form_input"
-            type="text"
-            placeholder="Enter your name"
-          />
-        </div>
-
-        <div>
-          <p>Quantity</p>
-          <input class="Y_form_input" type="text" placeholder="Piece" />
-        </div>
-
-        <div>
-          <p>Briefly describe your requirement</p>
-          <input
-            class="Y_form_input"
-            type="text"
-            placeholder="Additional details about your requirements..."
-          />
-        </div>
-
-        <div id="Y_form_button">
-          <input type="submit" value="Submit Requirement" />
-        </div>
-      </form>
+    <div id="rbox4">
+        <h3 id="rshop">Shop Similar Products Now</h3>
+    <div id="rthird4">
+        <!-- <h3>Shop Similar Product Now</h3> -->
     </div>
-
-    <!-- Related Products from Top Suppliers -->
-
-    <h2 id="Y_related_products">Related Products from Top Suppliers</h2>
-
-    <div id="Y_related_products_container">
-      <div id="Y_related_products_box">
-        <div id="Y_related_products_img">
-          <img
-            src="https://4.imimg.com/data4/XE/JA/MY-2718105/ladies-beauty-lipstick-250x250.jpg"
-            alt=""
-          />
-        </div>
-
-        <h3>Ladies Beauty Lipstick</h3>
-
-        <p>Rs 90/ Unit</p>
-        <p><i class="fa-solid fa-circle-check"></i> Shivani Cosmetics</p>
-        <p>Daya Basti, Delhi, India</p>
-        <p><i class="fa-solid fa-phone"></i> Call 08046065670</p>
-
-        <button>Contact Supplier</button>
-      </div>
-
-      <div id="Y_related_products_box">
-        <div id="Y_related_products_img">
-          <img
-            src="https://4.imimg.com/data4/MB/UW/MY-2718105/ladies-candy-lipstick-250x250.jpg"
-            alt=""
-          />
-        </div>
-
-        <h3>Ladies Candy Lipstick</h3>
-
-        <p>Rs 90/ Unit</p>
-        <p><i class="fa-solid fa-circle-check"></i> Shivani Cosmetics</p>
-        <p>Daya Basti, Delhi, India</p>
-        <p><i class="fa-solid fa-phone"></i> Call 08046065670</p>
-
-        <button>Contact Supplier</button>
-      </div>
-
-      <div id="Y_related_products_box">
-        <div id="Y_related_products_img">
-          <img
-            src="https://5.imimg.com/data5/SELLER/Default/2020/8/XN/GN/LI/31775416/silvi-smooth-lipstick-and-smooth-velvet-lipstick-4-gm-250x250.jpg"
-            alt=""
-          />
-        </div>
-
-        <h3>Velvet Lipstick</h3>
-
-        <p>Rs 840/ Dozen</p>
-        <p>
-          <i class="fa-solid fa-circle-check"></i> Silvi Herbals And Beauty
-          Treats
-        </p>
-        <p>Delhi, Delhi, India</p>
-        <p><i class="fa-solid fa-phone"></i>Call 08047638783</p>
-
-        <button>Contact Supplier</button>
-      </div>
-
-      <div id="Y_related_products_box">
-        <div id="Y_related_products_img">
-          <img
-            src="https://5.imimg.com/data5/ANDROID/Default/2021/12/TE/LH/VU/5725369/product-jpeg-250x250.jpg"
-            alt=""
-          />
-        </div>
-
-        <h3>Lipstick</h3>
-
-        <p>Rs 15/ Piece</p>
-        <p><i class="fa-solid fa-circle-check"></i> Cee Con Products</p>
-        <p>Delhi, India</p>
-        <p><i class="fa-solid fa-phone"></i> Call 08046079029</p>
-
-        <button>Contact Supplier</button>
-      </div>
+</div>
+    <div id="rfourth4">
+        <div> <h2>Mac Means bussiness</h2></div> 
+        <div><img alt="rr" src="https://rukminim1.flixcart.com/flap/128/128/image/ffc530c33840306c.png?q=100"></div>
+        <div id="rlast">Switch easily from PC to Mac.
+            <br>
+        Exchange bonus of ₹5000</div>
     </div>
+    <div class="rcancel5">&times;</div>
+    <div class="cancel4">&times;</div>
+</div>
 
-    <!-- Related Categories -->
-
-    <h2 id="Y_related_cat">Related Categories</h2>
-
-    <div id="Y_related_cat_container">
-      <div class="Y_related_cat_box">
-        <div id="Y_related_img">
-          <img
-            src="https://3.imimg.com/data3/EP/VJ/GLADMIN-105850/cosmetics-250x250.jpg"
-            alt=""
-          />
-        </div>
-
-        <h3>Cosmetics</h3>
-      </div>
-
-      <div class="Y_related_cat_box">
-        <div id="Y_related_img">
-          <img
-            src="https://5.imimg.com/data5/JM/OT/KQ/GLADMIN-68087/cosmetic-third-party-manufacturing-250x250.jpg"
-            alt=""
-          />
-        </div>
-
-        <h3>Cosmetic Third Party Manufacturing</h3>
-      </div>
-
-      <div class="Y_related_cat_box">
-        <div id="Y_related_img">
-          <img
-            src="https://3.imimg.com/data3/TT/GW/GLADMIN-21908/beauty-cosmetics-250x250.jpg"
-            alt=""
-          />
-        </div>
-
-        <h3>Beauty Cosmetics</h3>
-      </div>
-
-      <div class="Y_related_cat_box">
-        <div id="Y_related_img">
-          <img
-            src="https://5.imimg.com/data5/ZB/JY/DJ/GLADMIN-68087/matte-lipstick-250x250.png"
-            alt=""
-          />
-        </div>
-
-        <h3>Matte Lipstick</h3>
-      </div>
-
-      <div class="Y_related_cat_box">
-        <div id="Y_related_img">
-          <img
-            src="https://3.imimg.com/data3/KG/HH/GLADMIN-11601/lip-balm-250x250.jpg"
-            alt=""
-          />
-        </div>
-
-        <h3>Lip Balm</h3>
-      </div>
-
-      <div class="Y_related_cat_box">
-        <div id="Y_related_img">
-          <img
-            src="https://3.imimg.com/data3/IF/CY/GLADMIN-108453/liquid-lipstick-250x250.jpg"
-            alt=""
-          />
-        </div>
-
-        <h3>Liquid Lipstick</h3>
-      </div>
-    </div>
-    <!-- ---- FOOTER -------/ -->
     
     <div id="footer"></div>
 </body>
